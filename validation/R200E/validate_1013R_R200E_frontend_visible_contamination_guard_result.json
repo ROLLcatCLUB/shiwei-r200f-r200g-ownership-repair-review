@@ -1,0 +1,3085 @@
+{
+  "stage": "1013R_R200E_FRONTEND_VISIBLE_CONTAMINATION_GUARD",
+  "status": "PASS",
+  "checks": {
+    "uses_r103_response_snapshot": true,
+    "frontend_visible_snapshot_written": true,
+    "content_source_ledger_written": true,
+    "active_lesson_denylist_written": true,
+    "all_cases_focus_match_expected": true,
+    "teacher_main_has_no_denylist_hits": true,
+    "default_visible_has_no_denylist_hits": true,
+    "r200b_candidate_not_teacher_main_text": true,
+    "deterministic_fallback_not_teacher_main_conclusion": true,
+    "legacy_shell_not_default_visible": true,
+    "main_text_entries_have_content_source_type": true,
+    "teacher_main_R200A_kernel_count_zero": true,
+    "teacher_main_unknown_count_zero": true,
+    "default_visible_deterministic_fallback_count_zero": true,
+    "default_visible_unknown_count_zero": true,
+    "preview_only_no_formal_apply": true
+  },
+  "summary": {
+    "case_count": 6,
+    "visible_entry_count": 991,
+    "teacher_main_entry_count": 792,
+    "contamination_hit_count": 4,
+    "default_visible_hit_count": 0,
+    "teacher_main_hit_count": 0,
+    "source_policy_violation_count": 0,
+    "focus_failure_count": 0,
+    "default_visible_source_type_counts": {
+      "R114_field_projection": 180,
+      "R97B_P3_derivation_spine": 99,
+      "runtime_event": 144,
+      "source_gap": 69,
+      "uploaded_source": 444,
+      "xiaojiao_context": 55
+    },
+    "teacher_main_source_type_counts": {
+      "R114_field_projection": 180,
+      "R97B_P3_derivation_spine": 99,
+      "source_gap": 69,
+      "uploaded_source": 444
+    }
+  },
+  "cases": [
+    {
+      "case_id": "shoe_observation_user_repro",
+      "file_name": "课时1_足下生辉_教案.txt",
+      "focus_id": "shoe_observation_drawing_expression",
+      "expected_focus": "shoe_observation_drawing_expression",
+      "focus_ok": true,
+      "visible_text_count": 102,
+      "teacher_main_text_count": 75,
+      "deny_terms": [
+        "海洋",
+        "海洋生物",
+        "废旧材料",
+        "拼贴",
+        "拼板",
+        "拼摆",
+        "渐变",
+        "青绿山水",
+        "石青",
+        "石绿"
+      ],
+      "contamination_hit_count": 2,
+      "teacher_main_contamination_hit_count": 0,
+      "default_visible_source_type_counts": {
+        "R114_field_projection": 30,
+        "R97B_P3_derivation_spine": 9,
+        "runtime_event": 24,
+        "source_gap": 15,
+        "uploaded_source": 21,
+        "xiaojiao_context": 3
+      },
+      "teacher_main_source_type_counts": {
+        "R114_field_projection": 30,
+        "R97B_P3_derivation_spine": 9,
+        "source_gap": 15,
+        "uploaded_source": 21
+      },
+      "template_episode_count": 3,
+      "boundary": {
+        "stage": "1013R_R103_REAL_UPLOAD_ENTRY_PREVIEW",
+        "real_upload_entry_preview": true,
+        "temporary_upload_session_only": true,
+        "real_upload_runtime_connected": false,
+        "provider_called": false,
+        "model_called": false,
+        "runtime_call_allowed": false,
+        "write_allowed": false,
+        "database_written": false,
+        "memory_written": false,
+        "vector_index_written": false,
+        "feishu_written": false,
+        "pptx_generated": false,
+        "pdf_docx_generated": false,
+        "formal_apply_performed": false,
+        "teacher_original_overwritten": false,
+        "R21_modified": false,
+        "R36_modified": false,
+        "R95_executed": false,
+        "main_shell_replaced": false,
+        "render_layer_replaced": false,
+        "static_html_created": false,
+        "old_generation_chain_modified": false
+      },
+      "response_keys": [
+        "art_lesson_design_kernel_preview",
+        "art_lesson_reasoning_candidate_preview",
+        "boundary",
+        "courseware_screen_patch",
+        "curriculum_standard_candidate_preview",
+        "formal_apply",
+        "generated_at",
+        "import_field_reasoning_preview",
+        "import_graph_field_projection_preview",
+        "import_lesson_understanding_preview",
+        "import_teacher_execution_map_preview",
+        "import_understanding_v2_graph_preview",
+        "lesson_derivation_spine_preview",
+        "ok",
+        "prep_view_patch",
+        "preview_test_record",
+        "r200f_source_ownership_policy",
+        "r200g_response_assembly_ownership_gate",
+        "render_contract",
+        "right_rail_patch",
+        "runtime_actions",
+        "runtime_progress_events",
+        "single_lesson_template",
+        "source_round",
+        "stage",
+        "teacher_readable_quality_preview",
+        "teacher_review_required",
+        "upload_session",
+        "viewmodel_id",
+        "viewmodel_type",
+        "xiaojiao_context_patch"
+      ],
+      "visible_text_sample": [
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "本课依据上传原稿定位为三年级《《足下生辉》教案》，所属单元为“第五单元 足下生辉”。"
+        },
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "本课的学习重心，是让学生从熟悉的鞋出发，比较不同角度的外形、结构和局部细节，再用线条和画面组织把观察发现表达出来。"
+        },
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。"
+        },
+        {
+          "area": "main_template.student_analysis",
+          "source": "R114_field_projection",
+          "text": "三年级学生进入本课时，可能先卡在这里：学生可能只画出概念化的鞋，忽略观察角度、比例结构和局部细节。"
+        },
+        {
+          "area": "main_template.student_analysis",
+          "source": "R114_field_projection",
+          "text": "课堂上可重点看：学生可能只说鞋好看或颜色特别，却没有指向角度、结构和局部细节。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能从正面、侧面、后面或局部角度观察鞋，说出外形比例、鞋面结构、鞋底方向或鞋带纹样等2-3个发现。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能用线条和形状画出鞋的基本轮廓、主要结构和至少一处局部细节，画面依据来自实际观察。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能在交流中指出作品中的一个观察证据，并根据同伴或教师提示完成一处调整。"
+        },
+        {
+          "area": "main_template.key_difficult_points",
+          "source": "R114_field_projection",
+          "text": "重点：引导学生从真实鞋或图片中观察不同角度的外形、结构和局部细节，并把观察发现转化为线描表达。"
+        },
+        {
+          "area": "main_template.key_difficult_points",
+          "source": "R114_field_projection",
+          "text": "难点：帮助学生处理比例、遮挡、鞋面与鞋底方向、局部纹样等容易被忽略的细节，避免画成概念化、符号化的鞋。"
+        },
+        {
+          "area": "main_template.preparation",
+          "source": "R114_field_projection",
+          "text": "材料、工具、大屏资源和安全安排需教师根据本班条件确认。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：引入 5分钟 出示不同民族、不同时代的鞋，引导学生提出问题。，用于先从真实鞋或鞋的图片进入，让学生说出外形、角度或局部差异，为后面的观察写生建立对象。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：观察指导 10分钟 学生观察自己带来的鞋，比较正面、侧面和局部细节。，用于在动笔前先确定观察角度和结构位置，避免学生凭概念画一只符号化的鞋。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：展示与小结 5分钟 学生说出自己观察到的鞋的一个特点和画面调整。，用于在动笔前先确定观察角度和结构位置，避免学生凭概念画一只符号化的鞋。"
+        },
+        {
+          "area": "main_template.reflection_or_notes",
+          "source": "R114_field_projection",
+          "text": "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "source_gap",
+          "text": "引入 5分钟 出示不同民族、不同时代的鞋，引导学生提出问题。"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "source_gap",
+          "text": "引入 5分钟 出示不同民族、不同时代的鞋，引导学生提出问题。"
+        },
+        {
+          "area": "main_template.process_episodes.teacher_organization",
+          "source": "source_gap",
+          "text": "上传原文未提供明确教师组织；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "source_gap",
+          "text": "上传原文未提供明确学生学习；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先从真实鞋或鞋的图片进入，让学生说出外形、角度或局部差异，为后面的观察写生建立对象。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先确认学生已经说出可见发现或问题，再进入“观察指导 10分钟 学生观察自己带来的鞋，比较正面、侧面和局部细节。”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "学生能说出一个看得见的发现或提出一个与本课对象相关的问题。"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "source_gap",
+          "text": "引入 5分钟 出示不同民族、不同时代的鞋，引导学生提出问题。"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "source_gap",
+          "text": "观察指导 10分钟 学生观察自己带来的鞋，比较正面、侧面和局部细节。"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "source_gap",
+          "text": "观察指导 10分钟 学生观察自己带来的鞋，比较正面、侧面和局部细节。 3. 动手写生 20分钟 学生用线条画出鞋的外形、结构和主要细节。"
+        },
+        {
+          "area": "main_template.process_episodes.teacher_organization",
+          "source": "source_gap",
+          "text": "上传原文未提供明确教师组织；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "source_gap",
+          "text": "上传原文未提供明确学生学习；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "在动笔前先确定观察角度和结构位置，避免学生凭概念画一只符号化的鞋。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "把学生确认的观察角度、结构或方法标准带入“展示与小结 5分钟 学生说出自己观察到的鞋的一个特点和画面调整。”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "学生能指认具体观察位置，并用可见词说明自己的判断。"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "source_gap",
+          "text": "观察指导 10分钟 学生观察自己带来的鞋，比较正面、侧面和局部细节。"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "source_gap",
+          "text": "展示与小结 5分钟 学生说出自己观察到的鞋的一个特点和画面调整。"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "source_gap",
+          "text": "展示与小结 5分钟 学生说出自己观察到的鞋的一个特点和画面调整。"
+        },
+        {
+          "area": "main_template.process_episodes.teacher_organization",
+          "source": "source_gap",
+          "text": "上传原文未提供明确教师组织；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "source_gap",
+          "text": "上传原文未提供明确学生学习；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "在动笔前先确定观察角度和结构位置，避免学生凭概念画一只符号化的鞋。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "用本环节收集到的作品、语言或过程证据收束本课学习。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "学生能指认具体观察位置，并用可见词说明自己的判断。"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "source_gap",
+          "text": "展示与小结 5分钟 学生说出自己观察到的鞋的一个特点和画面调整。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.basis",
+          "source": "R114_field_projection",
+          "text": "本课依据上传原稿定位为三年级《《足下生辉》教案》，所属单元为“第五单元 足下生辉”。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.basis",
+          "source": "R114_field_projection",
+          "text": "本课的学习重心，是让学生从熟悉的鞋出发，比较不同角度的外形、结构和局部细节，再用线条和画面组织把观察发现表达出来。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.basis",
+          "source": "R114_field_projection",
+          "text": "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.analysis",
+          "source": "R114_field_projection",
+          "text": "三年级学生进入本课时，可能先卡在这里：学生可能只画出概念化的鞋，忽略观察角度、比例结构和局部细节。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.analysis",
+          "source": "R114_field_projection",
+          "text": "课堂上可重点看：学生可能只说鞋好看或颜色特别，却没有指向角度、结构和局部细节。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.goals",
+          "source": "R114_field_projection",
+          "text": "学生能从正面、侧面、后面或局部角度观察鞋，说出外形比例、鞋面结构、鞋底方向或鞋带纹样等2-3个发现。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.goals",
+          "source": "R114_field_projection",
+          "text": "学生能用线条和形状画出鞋的基本轮廓、主要结构和至少一处局部细节，画面依据来自实际观察。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.goals",
+          "source": "R114_field_projection",
+          "text": "学生能在交流中指出作品中的一个观察证据，并根据同伴或教师提示完成一处调整。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.keypoints",
+          "source": "R114_field_projection",
+          "text": "重点：引导学生从真实鞋或图片中观察不同角度的外形、结构和局部细节，并把观察发现转化为线描表达。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.keypoints",
+          "source": "R114_field_projection",
+          "text": "难点：帮助学生处理比例、遮挡、鞋面与鞋底方向、局部纹样等容易被忽略的细节，避免画成概念化、符号化的鞋。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.preparation",
+          "source": "R114_field_projection",
+          "text": "材料、工具、大屏资源和安全安排需教师根据本班条件确认。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.assessment",
+          "source": "R114_field_projection",
+          "text": "观察证据：引入 5分钟 出示不同民族、不同时代的鞋，引导学生提出问题。，用于先从真实鞋或鞋的图片进入，让学生说出外形、角度或局部差异，为后面的观察写生建立对象。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.assessment",
+          "source": "R114_field_projection",
+          "text": "观察证据：观察指导 10分钟 学生观察自己带来的鞋，比较正面、侧面和局部细节。，用于在动笔前先确定观察角度和结构位置，避免学生凭概念画一只符号化的鞋。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.assessment",
+          "source": "R114_field_projection",
+          "text": "观察证据：展示与小结 5分钟 学生说出自己观察到的鞋的一个特点和画面调整。，用于在动笔前先确定观察角度和结构位置，避免学生凭概念画一只符号化的鞋。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.reflection",
+          "source": "R114_field_projection",
+          "text": "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.title",
+          "source": "uploaded_source",
+          "text": "引入 5分钟 出示不同民族、不同时代的鞋，引导学生提出问题。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.goal",
+          "source": "uploaded_source",
+          "text": "引入 5分钟 出示不同民族、不同时代的鞋，引导学生提出问题。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "引入 5分钟 出示不同民族、不同时代的鞋，引导学生提出问题。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.source_content",
+          "source": "uploaded_source",
+          "text": "引入 5分钟 出示不同民族、不同时代的鞋，引导学生提出问题。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.original_source_evidence",
+          "source": "uploaded_source",
+          "text": "引入 5分钟 出示不同民族、不同时代的鞋，引导学生提出问题。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.source_gap_note",
+          "source": "uploaded_source",
+          "text": "上传原文未提供明确学生学习；需教师确认。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.source_gap_note",
+          "source": "uploaded_source",
+          "text": "上传原文未提供明确学习证据；需教师确认。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.title",
+          "source": "uploaded_source",
+          "text": "观察指导 10分钟 学生观察自己带来的鞋，比较正面、侧面和局部细节。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.goal",
+          "source": "uploaded_source",
+          "text": "观察指导 10分钟 学生观察自己带来的鞋，比较正面、侧面和局部细节。 3. 动手写生 20分钟 学生用线条画出鞋的外形、结构和主要细节。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "观察指导 10分钟 学生观察自己带来的鞋，比较正面、侧面和局部细节。 3. 动手写生 20分钟 学生用线条画出鞋的外形、结构和主要细节。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.source_content",
+          "source": "uploaded_source",
+          "text": "观察指导 10分钟 学生观察自己带来的鞋，比较正面、侧面和局部细节。 3. 动手写生 20分钟 学生用线条画出鞋的外形、结构和主要细节。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.original_source_evidence",
+          "source": "uploaded_source",
+          "text": "观察指导 10分钟 学生观察自己带来的鞋，比较正面、侧面和局部细节。 3. 动手写生 20分钟 学生用线条画出鞋的外形、结构和主要细节。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.source_gap_note",
+          "source": "uploaded_source",
+          "text": "上传原文未提供明确学生学习；需教师确认。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.source_gap_note",
+          "source": "uploaded_source",
+          "text": "上传原文未提供明确学习证据；需教师确认。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.title",
+          "source": "uploaded_source",
+          "text": "展示与小结 5分钟 学生说出自己观察到的鞋的一个特点和画面调整。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.goal",
+          "source": "uploaded_source",
+          "text": "展示与小结 5分钟 学生说出自己观察到的鞋的一个特点和画面调整。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "展示与小结 5分钟 学生说出自己观察到的鞋的一个特点和画面调整。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.source_content",
+          "source": "uploaded_source",
+          "text": "展示与小结 5分钟 学生说出自己观察到的鞋的一个特点和画面调整。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.original_source_evidence",
+          "source": "uploaded_source",
+          "text": "展示与小结 5分钟 学生说出自己观察到的鞋的一个特点和画面调整。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.source_gap_note",
+          "source": "uploaded_source",
+          "text": "上传原文未提供明确学生学习；需教师确认。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.source_gap_note",
+          "source": "uploaded_source",
+          "text": "上传原文未提供明确学习证据；需教师确认。"
+        },
+        {
+          "area": "xiaojiao_context_patch.episode_title",
+          "source": "xiaojiao_context",
+          "text": "引入 5分钟 出示不同民族、不同时代的鞋，引导学生提出问题。"
+        },
+        {
+          "area": "xiaojiao_context_patch.episode_title",
+          "source": "xiaojiao_context",
+          "text": "观察指导 10分钟 学生观察自己带来的鞋，比较正面、侧面和局部细节。"
+        },
+        {
+          "area": "xiaojiao_context_patch.episode_title",
+          "source": "xiaojiao_context",
+          "text": "展示与小结 5分钟 学生说出自己观察到的鞋的一个特点和画面调整。"
+        },
+        {
+          "area": "runtime_progress_events.label",
+          "source": "runtime_event",
+          "text": "已接收上传内容"
+        },
+        {
+          "area": "runtime_progress_events.teacher_visible_text",
+          "source": "runtime_event",
+          "text": "已接收教案内容，只读预览，不保存原文。"
+        }
+      ]
+    },
+    {
+      "case_id": "color_gradation",
+      "file_name": "kb_art_g3_lesson_case_1_fd1b5bdf60_课时1_渐变的魅力_教案.docx",
+      "focus_id": "color_gradation_expression",
+      "expected_focus": "color_gradation_expression",
+      "focus_ok": true,
+      "visible_text_count": 181,
+      "teacher_main_text_count": 146,
+      "deny_terms": [
+        "足下生辉",
+        "鞋底",
+        "鞋面",
+        "鞋带",
+        "青绿山水",
+        "海洋生物",
+        "废旧材料"
+      ],
+      "contamination_hit_count": 0,
+      "teacher_main_contamination_hit_count": 0,
+      "default_visible_source_type_counts": {
+        "R114_field_projection": 30,
+        "R97B_P3_derivation_spine": 18,
+        "runtime_event": 24,
+        "source_gap": 11,
+        "uploaded_source": 87,
+        "xiaojiao_context": 11
+      },
+      "teacher_main_source_type_counts": {
+        "R114_field_projection": 30,
+        "R97B_P3_derivation_spine": 18,
+        "source_gap": 11,
+        "uploaded_source": 87
+      },
+      "template_episode_count": 6,
+      "boundary": {
+        "stage": "1013R_R103_REAL_UPLOAD_ENTRY_PREVIEW",
+        "real_upload_entry_preview": true,
+        "temporary_upload_session_only": true,
+        "real_upload_runtime_connected": false,
+        "provider_called": false,
+        "model_called": false,
+        "runtime_call_allowed": false,
+        "write_allowed": false,
+        "database_written": false,
+        "memory_written": false,
+        "vector_index_written": false,
+        "feishu_written": false,
+        "pptx_generated": false,
+        "pdf_docx_generated": false,
+        "formal_apply_performed": false,
+        "teacher_original_overwritten": false,
+        "R21_modified": false,
+        "R36_modified": false,
+        "R95_executed": false,
+        "main_shell_replaced": false,
+        "render_layer_replaced": false,
+        "static_html_created": false,
+        "old_generation_chain_modified": false
+      },
+      "response_keys": [
+        "art_lesson_design_kernel_preview",
+        "art_lesson_reasoning_candidate_preview",
+        "boundary",
+        "courseware_screen_patch",
+        "curriculum_standard_candidate_preview",
+        "formal_apply",
+        "generated_at",
+        "import_field_reasoning_preview",
+        "import_graph_field_projection_preview",
+        "import_lesson_understanding_preview",
+        "import_teacher_execution_map_preview",
+        "import_understanding_v2_graph_preview",
+        "lesson_derivation_spine_preview",
+        "ok",
+        "prep_view_patch",
+        "preview_test_record",
+        "r200f_source_ownership_policy",
+        "r200g_response_assembly_ownership_gate",
+        "render_contract",
+        "right_rail_patch",
+        "runtime_actions",
+        "runtime_progress_events",
+        "single_lesson_template",
+        "source_round",
+        "stage",
+        "teacher_readable_quality_preview",
+        "teacher_review_required",
+        "upload_session",
+        "viewmodel_id",
+        "viewmodel_type",
+        "xiaojiao_context_patch"
+      ],
+      "visible_text_sample": [
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "本课依据上传原稿定位为三年级《渐变的魅力》，所属单元为“第一单元 多变的色彩”。"
+        },
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "本课的学习重心，是让学生先从生活和画面中看见颜色慢慢变化，再选择合适工具试着表现这种过渡，并在交流中说清哪里变得自然。"
+        },
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。"
+        },
+        {
+          "area": "main_template.student_analysis",
+          "source": "R114_field_projection",
+          "text": "三年级学生进入本课时，可能先卡在这里：学生可能知道要完成什么作品或练习，却还需要教师帮助他们把观察发现、材料方法和作品效果联系起来。"
+        },
+        {
+          "area": "main_template.student_analysis",
+          "source": "R114_field_projection",
+          "text": "课堂上可重点看：学生可能只说颜色好看，却说不出颜色是怎样慢慢过渡的；学生可能混淆三种工具的方法，把水彩笔当成可混色工具，或不知道怎样控制深浅。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能观察生活和画面中的颜色过渡现象，说出渐变是颜色逐步变化的效果。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能选择彩铅、油画棒或水彩笔中的一种方法，画出一组有过渡层次的渐变效果。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能在交流中指出作品哪里体现了渐变，并说明还可以怎样调整。"
+        },
+        {
+          "area": "main_template.key_difficult_points",
+          "source": "R114_field_projection",
+          "text": "重点：识别颜色逐步过渡的规律，并用工具把渐变效果表现出来。"
+        },
+        {
+          "area": "main_template.key_difficult_points",
+          "source": "R114_field_projection",
+          "text": "难点：避免直接跳色或平涂，引导学生通过叠色、推开或色阶排列形成自然过渡。"
+        },
+        {
+          "area": "main_template.preparation",
+          "source": "R114_field_projection",
+          "text": "材料、工具、大屏资源和安全安排需教师根据本班条件确认。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：能说出2-3种颜色的名称，用于支持学习目标或课堂推进判断，需在 R114B 执行地图中细化对应关系。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：能用语言描述\"颜色慢慢变化\"，用于支持学习目标或课堂推进判断，需在 R114B 执行地图中细化对应关系。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：能说出三种工具各自的特点，用于支持学习目标或课堂推进判断，需在 R114B 执行地图中细化对应关系。"
+        },
+        {
+          "area": "main_template.reflection_or_notes",
+          "source": "R114_field_projection",
+          "text": "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "课堂导入"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "引发学生对\"渐变\"的好奇心，建立学习期待"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：说出彩虹的颜色顺序，引出\"渐变\"概念；可观察证据：能说出2-3种颜色的名称"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：能说出2-3种颜色的名称；可用原文问题追问：你见过彩虹吗？彩虹的颜色是怎么排列的？；反馈抓手：表扬所有发言的同学"
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "能说出2-3种颜色的名称"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先用彩虹或生活经验激活学生对颜色变化的直观感受，为认识渐变概念做铺垫。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先确认学生已经说出可见发现或问题，再进入“认识渐变概念”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "学生能说出一个看得见的发现或提出一个与本课对象相关的问题。"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "课堂导入"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "uploaded_source",
+          "text": "学生任务：说出彩虹的颜色顺序，引出\"渐变\"概念；可观察证据：能说出2-3种颜色的名称"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "uploaded_source",
+          "text": "PPT（彩虹图片）；投影仪"
+        },
+        {
+          "area": "main_template.micro_steps.evidence",
+          "source": "uploaded_source",
+          "text": "能说出2-3种颜色的名称"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "认识渐变概念"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "认识\"渐变\"：颜色从深到浅（或从一种颜色慢慢变成另一种颜色）"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：观察图片，说出颜色变化的规律；可观察证据：能用语言描述\"颜色慢慢变化\""
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：能用语言描述\"颜色慢慢变化\"；可用原文问题追问：这些颜色是怎么过渡的？是突然变过去，还是一点一点变过去的？；反馈抓手：板书：渐变 = 颜色慢慢过渡"
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "能用语言描述\"颜色慢慢变化\""
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先把生活中的颜色变化命名为渐变，帮助学生从感觉好看转向说出过渡规律。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“能说出2-3种颜色的名称；能用语言描述\"颜色慢慢变化\"；能说出三种工具各自的特点”，再转入“教师示范三种工具”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能说出2-3种颜色的名称；能用语言描述\"颜色慢慢变化\"；能说出三种工具各自的特点"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "认识渐变概念"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "uploaded_source",
+          "text": "学生任务：观察图片，说出颜色变化的规律；可观察证据：能用语言描述\"颜色慢慢变化\""
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "uploaded_source",
+          "text": "PPT（生活中的渐变图片：日落/糖果/玻璃）；投影仪"
+        },
+        {
+          "area": "main_template.micro_steps.evidence",
+          "source": "uploaded_source",
+          "text": "能用语言描述\"颜色慢慢变化\""
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "教师示范三种工具"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "示范三种工具（彩铅/油画棒/水彩笔）的渐变表现方法，明确各自特点"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：观察教师示范样本，说出三种工具的特点；可观察证据：能说出三种工具各自的特点"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：能说出三种工具各自的特点；可用原文问题追问：彩铅和油画棒的渐变是怎么做到柔和的？水彩笔为什么只能选相近颜色？；反馈抓手：强调：彩铅油画棒叠色可以混色，水彩笔靠色阶推移"
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "能说出三种工具各自的特点"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "在学生练习前比较不同工具的渐变方法，让学生知道彩铅、油画棒和水彩笔各自怎么形成过渡。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“能说出2-3种颜色的名称；能用语言描述\"颜色慢慢变化\"；能说出三种工具各自的特点”，再转入“探索与练习”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能说出2-3种颜色的名称；能用语言描述\"颜色慢慢变化\"；能说出三种工具各自的特点"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "教师示范三种工具推进1"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "渐变可以用不同的工具来画"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "uploaded_source",
+          "text": "学生任务：观察教师示范样本，说出三种工具的特点；可观察证据：能说出三种工具各自的特点"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "uploaded_source",
+          "text": "实物投影仪"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "教师示范"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "老师今天准备用三种工具画渐变（展示教师示范样本）"
+        },
+        {
+          "area": "main_template.micro_steps.evidence",
+          "source": "uploaded_source",
+          "text": "能说出三种工具各自的特点"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "source_gap",
+          "text": "探索与练习"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "source_gap",
+          "text": "选择一种工具，在学习单上完成一组渐变练习"
+        },
+        {
+          "area": "main_template.process_episodes.teacher_organization",
+          "source": "source_gap",
+          "text": "上传原文未提供明确教师组织；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "source_gap",
+          "text": "完成学习单：用选定的工具画一组渐变"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "source_gap",
+          "text": "可用原文问题追问：学习单完成一组渐变，颜色过渡自然，无明显硬边界；反馈抓手：你的渐变是从哪个颜色变到哪个颜色？过渡顺不顺畅？"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "让学生把“颜色慢慢变化”的理解落实到工具练习中，形成可观察的渐变效果。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "用学生的作品痕迹和困难点作为“分享与展评”的交流材料。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能说出2-3种颜色的名称；能用语言描述\"颜色慢慢变化\"；能用语言描述同伴作品的特点"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "source_gap",
+          "text": "任务准备"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "source_gap",
+          "text": "每人选择一个你最想尝试的工具，在学习单上完成一组渐变"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "source_gap",
+          "text": "完成学习单：用选定的工具画一组渐变"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "source_gap",
+          "text": "学习单（渐变初印象学习单）、工具（彩铅或油画棒或水彩笔，学生自带）"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "source_gap",
+          "text": "探索与练习推进2"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "source_gap",
+          "text": "先画一个大圆形或方形，然后在这个形状里涂渐变——可以从深色慢慢变到浅色，也可以从一种颜色变到另一种颜色"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "分享与展评"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "通过展示和互评，感受不同工具的表现力，建立\"审美多元\"意识"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：观察同伴作品，说出1-2个发现；可观察证据：能用语言描述同伴作品的特点"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：能用语言描述同伴作品的特点；可用原文问题追问：彩铅的渐变和油画棒的渐变有什么不同？你最喜欢哪一幅，为什么？；反馈抓手：强调：不同工具有不同美感，鼓励选择自己擅长的工具"
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "能用语言描述同伴作品的特点"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "用同伴作品比较不同工具的渐变效果，让评价回到颜色是否逐步变化。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“能说出2-3种颜色的名称；能用语言描述\"颜色慢慢变化\"；能说出三种工具各自的特点”，再转入“课堂小结与预告”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能说出2-3种颜色的名称；能用语言描述\"颜色慢慢变化\"；能说出三种工具各自的特点"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "学生操作"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "完成的同学把学习单举起来"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "uploaded_source",
+          "text": "学生任务：观察同伴作品，说出1-2个发现；可观察证据：能用语言描述同伴作品的特点"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "uploaded_source",
+          "text": "学习单"
+        }
+      ]
+    },
+    {
+      "case_id": "qinglv_landscape",
+      "file_name": "kb_art_g3_lesson_case_1_08f3e01f0b_课时1_走进青绿山水_教案.docx",
+      "focus_id": "ink_or_traditional_color_exploration",
+      "expected_focus": "ink_or_traditional_color_exploration",
+      "focus_ok": true,
+      "visible_text_count": 180,
+      "teacher_main_text_count": 145,
+      "deny_terms": [
+        "鞋底",
+        "鞋面",
+        "鞋带",
+        "海洋生物",
+        "废旧材料",
+        "拼贴",
+        "拼板"
+      ],
+      "contamination_hit_count": 0,
+      "teacher_main_contamination_hit_count": 0,
+      "default_visible_source_type_counts": {
+        "R114_field_projection": 30,
+        "R97B_P3_derivation_spine": 18,
+        "runtime_event": 24,
+        "source_gap": 13,
+        "uploaded_source": 84,
+        "xiaojiao_context": 11
+      },
+      "teacher_main_source_type_counts": {
+        "R114_field_projection": 30,
+        "R97B_P3_derivation_spine": 18,
+        "source_gap": 13,
+        "uploaded_source": 84
+      },
+      "template_episode_count": 6,
+      "boundary": {
+        "stage": "1013R_R103_REAL_UPLOAD_ENTRY_PREVIEW",
+        "real_upload_entry_preview": true,
+        "temporary_upload_session_only": true,
+        "real_upload_runtime_connected": false,
+        "provider_called": false,
+        "model_called": false,
+        "runtime_call_allowed": false,
+        "write_allowed": false,
+        "database_written": false,
+        "memory_written": false,
+        "vector_index_written": false,
+        "feishu_written": false,
+        "pptx_generated": false,
+        "pdf_docx_generated": false,
+        "formal_apply_performed": false,
+        "teacher_original_overwritten": false,
+        "R21_modified": false,
+        "R36_modified": false,
+        "R95_executed": false,
+        "main_shell_replaced": false,
+        "render_layer_replaced": false,
+        "static_html_created": false,
+        "old_generation_chain_modified": false
+      },
+      "response_keys": [
+        "art_lesson_design_kernel_preview",
+        "art_lesson_reasoning_candidate_preview",
+        "boundary",
+        "courseware_screen_patch",
+        "curriculum_standard_candidate_preview",
+        "formal_apply",
+        "generated_at",
+        "import_field_reasoning_preview",
+        "import_graph_field_projection_preview",
+        "import_lesson_understanding_preview",
+        "import_teacher_execution_map_preview",
+        "import_understanding_v2_graph_preview",
+        "lesson_derivation_spine_preview",
+        "ok",
+        "prep_view_patch",
+        "preview_test_record",
+        "r200f_source_ownership_policy",
+        "r200g_response_assembly_ownership_gate",
+        "render_contract",
+        "right_rail_patch",
+        "runtime_actions",
+        "runtime_progress_events",
+        "single_lesson_template",
+        "source_round",
+        "stage",
+        "teacher_readable_quality_preview",
+        "teacher_review_required",
+        "upload_session",
+        "viewmodel_id",
+        "viewmodel_type",
+        "xiaojiao_context_patch"
+      ],
+      "visible_text_sample": [
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "本课依据上传原稿定位为三年级《走进青绿山水》，所属单元为“第三单元 青绿中国色”。"
+        },
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "本课的学习重心，是让学生先从生活和画面中看见颜色慢慢变化，再选择合适工具试着表现这种过渡，并在交流中说清哪里变得自然。"
+        },
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。"
+        },
+        {
+          "area": "main_template.student_analysis",
+          "source": "R114_field_projection",
+          "text": "三年级学生进入本课时，可能先卡在这里：学生可能知道要完成什么作品或练习，却还需要教师帮助他们把观察发现、材料方法和作品效果联系起来。"
+        },
+        {
+          "area": "main_template.student_analysis",
+          "source": "R114_field_projection",
+          "text": "课堂上可重点看：学生可能只说颜色好看，却说不出颜色是怎样慢慢过渡的；学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能观察生活和画面中的颜色过渡现象，说出渐变是颜色逐步变化的效果。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能选择合适工具尝试表现一组有过渡层次的渐变效果。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能在交流中指出作品哪里体现了渐变，并说明还可以怎样调整。"
+        },
+        {
+          "area": "main_template.key_difficult_points",
+          "source": "R114_field_projection",
+          "text": "重点：识别颜色逐步过渡的规律，并用工具把渐变效果表现出来。"
+        },
+        {
+          "area": "main_template.key_difficult_points",
+          "source": "R114_field_projection",
+          "text": "难点：避免直接跳色或平涂，引导学生通过叠色、推开或色阶排列形成自然过渡。"
+        },
+        {
+          "area": "main_template.preparation",
+          "source": "R114_field_projection",
+          "text": "材料、工具、大屏资源和安全安排需教师根据本班条件确认。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：能说出2-3个与\"绿\"相关的词汇，用于支持学习目标或课堂推进判断，需在 R114B 执行地图中细化对应关系。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：能用1-2个词描述画面色彩，用于支持学习目标或课堂推进判断，需在 R114B 执行地图中细化对应关系。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：能用1个词描述触感或视觉感受，用于支持学习目标或课堂推进判断，需在 R114B 执行地图中细化对应关系。"
+        },
+        {
+          "area": "main_template.reflection_or_notes",
+          "source": "R114_field_projection",
+          "text": "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "引入课题"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "引发好奇心，引入\"青绿山水\"课题"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：说出1-2个与\"绿色\"相关的词；可观察证据：能说出2-3个与\"绿\"相关的词汇"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：能说出2-3个与\"绿\"相关的词汇；可用原文问题追问：你见过绿色的山吗？你觉得绿色的山和水是什么样子？；反馈抓手：表扬所有发言的同学"
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "能说出2-3个与\"绿\"相关的词汇"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先用彩虹或生活经验激活学生对颜色变化的直观感受，为认识渐变概念做铺垫。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先确认学生已经说出可见发现或问题，再进入“远观千里江山图”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能说出2-3个与\"绿\"相关的词汇；能用1-2个词描述画面色彩；能用1个词描述触感或视觉感受"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "引入课题"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "uploaded_source",
+          "text": "学生任务：说出1-2个与\"绿色\"相关的词；可观察证据：能说出2-3个与\"绿\"相关的词汇"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "uploaded_source",
+          "text": "PPT（封面）；投影仪"
+        },
+        {
+          "area": "main_template.micro_steps.evidence",
+          "source": "uploaded_source",
+          "text": "能说出2-3个与\"绿\"相关的词汇"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "远观千里江山图"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "通过《千里江山图》引发学生对青绿色彩的第一感受"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：观察，说出自己看到的颜色和感受；可观察证据：能用1-2个词描述画面色彩"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：能用1-2个词描述画面色彩；可用原文问题追问：你看到了哪些绿色？这幅画给你的感觉是什么？；反馈抓手：板书学生关键词：青绿、深深浅浅、山、水美"
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "能用1-2个词描述画面色彩"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“能说出2-3个与\"绿\"相关的词汇；能用1-2个词描述画面色彩；能用1个词描述触感或视觉感受”，再转入“近触矿物颜料”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能说出2-3个与\"绿\"相关的词汇；能用1-2个词描述画面色彩；能用1个词描述触感或视觉感受"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "远观千里江山图"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "uploaded_source",
+          "text": "学生任务：观察，说出自己看到的颜色和感受；可观察证据：能用1-2个词描述画面色彩"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "uploaded_source",
+          "text": "PPT（千里江山图高清全图）；投影仪"
+        },
+        {
+          "area": "main_template.micro_steps.evidence",
+          "source": "uploaded_source",
+          "text": "能用1-2个词描述画面色彩"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "近触矿物颜料"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "认识石青、石绿实物，建立触感记忆"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：小组传递观察，说出1个发现（颜色/质地/气味）；可观察证据：能用1个词描述触感或视觉感受"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：能用1个词描述触感或视觉感受；可用原文问题追问：石青和石绿看起来摸起来有什么不同？你觉得它们像什么？；反馈抓手：板书：石青（深蓝绿）、石绿（浅蓝绿）"
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "能用1个词描述触感或视觉感受"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“能说出2-3个与\"绿\"相关的词汇；能用1-2个词描述画面色彩；能用1个词描述触感或视觉感受”，再转入“涂色探索”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能说出2-3个与\"绿\"相关的词汇；能用1-2个词描述画面色彩；能用1个词描述触感或视觉感受"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "近触矿物颜料"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "uploaded_source",
+          "text": "学生任务：小组传递观察，说出1个发现（颜色/质地/气味）；可观察证据：能用1个词描述触感或视觉感受"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "uploaded_source",
+          "text": "石青、石绿颜料实物（小组传递，每组1份）"
+        },
+        {
+          "area": "main_template.micro_steps.evidence",
+          "source": "uploaded_source",
+          "text": "能用1个词描述触感或视觉感受"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "source_gap",
+          "text": "涂色探索"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "source_gap",
+          "text": "用涂色动手感受青绿色的深浅变化，建立\"动手感知\"的课堂基调"
+        },
+        {
+          "area": "main_template.process_episodes.teacher_organization",
+          "source": "source_gap",
+          "text": "上传原文未提供明确教师组织；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "source_gap",
+          "text": "完成学习单：涂出2-3种不同深浅的青绿色，写下区别"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "source_gap",
+          "text": "可用原文问题追问：学习单涂色完成；能说出2-3种青绿的区别；反馈抓手：你涂的这几个颜色有什么不同？哪个最深？哪个最浅？"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "让学生把“颜色慢慢变化”的理解落实到工具练习中，形成可观察的渐变效果。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“能用语言描述同伴作品的色彩特点”，再转入“分享与交流”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能用语言描述同伴作品的色彩特点"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "source_gap",
+          "text": "涂色探索推进1"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "source_gap",
+          "text": "现在，请拿出你的水彩笔或油画棒，在学习单上找出你认为是\"青绿色\"的颜色，涂在学习单第一个格子里"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "source_gap",
+          "text": "完成学习单：涂出2-3种不同深浅的青绿色，写下区别"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "source_gap",
+          "text": "\"青绿初印象\"学习单、水彩笔或油画棒（学生自带）"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "source_gap",
+          "text": "涂色探索推进2"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "source_gap",
+          "text": "再找一个\"更深的青绿\"，涂在第二个格子里"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "source_gap",
+          "text": "涂色探索推进3"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "source_gap",
+          "text": "你能找到几种不同的青绿？请写下来：这几种颜色有什么区别？"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "分享与交流"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "通过分享，感受不同人对青绿的不同理解，建立\"审美多元\"的意识"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：观察同伴作品，说出1-2个发现；可观察证据：能用语言描述同伴作品的色彩特点"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：能用语言描述同伴作品的色彩特点；可用原文问题追问：你找到了几种青绿色？和同学比呢？；反馈抓手：强调：审美没有标准答案，每人的感受都值得尊重；贴纸是可选的鼓励工具，不是必须"
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "能用语言描述同伴作品的色彩特点"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "用同伴作品比较不同工具的渐变效果，让评价回到颜色是否逐步变化。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“能用语言描述同伴作品的色彩特点”，再转入“课堂小结与预告”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能用语言描述同伴作品的色彩特点"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "学生操作"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "完成的同学把学习单举起来"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "uploaded_source",
+          "text": "学生任务：观察同伴作品，说出1-2个发现；可观察证据：能用语言描述同伴作品的色彩特点"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "uploaded_source",
+          "text": "学习单（红蓝贴纸用于展评，可选）"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "分享与交流推进2"
+        }
+      ]
+    },
+    {
+      "case_id": "material_transformation",
+      "file_name": "kb_art_g3_lesson_case_2_67d6ab622f_课时2_变废为宝的艺术_教案.docx",
+      "focus_id": "material_transformation_expression",
+      "expected_focus": "material_transformation_expression",
+      "focus_ok": true,
+      "visible_text_count": 190,
+      "teacher_main_text_count": 154,
+      "deny_terms": [
+        "足下生辉",
+        "鞋底",
+        "鞋面",
+        "鞋带",
+        "青绿山水",
+        "石青",
+        "石绿"
+      ],
+      "contamination_hit_count": 0,
+      "teacher_main_contamination_hit_count": 0,
+      "default_visible_source_type_counts": {
+        "R114_field_projection": 30,
+        "R97B_P3_derivation_spine": 18,
+        "runtime_event": 24,
+        "uploaded_source": 106,
+        "xiaojiao_context": 12
+      },
+      "teacher_main_source_type_counts": {
+        "R114_field_projection": 30,
+        "R97B_P3_derivation_spine": 18,
+        "uploaded_source": 106
+      },
+      "template_episode_count": 6,
+      "boundary": {
+        "stage": "1013R_R103_REAL_UPLOAD_ENTRY_PREVIEW",
+        "real_upload_entry_preview": true,
+        "temporary_upload_session_only": true,
+        "real_upload_runtime_connected": false,
+        "provider_called": false,
+        "model_called": false,
+        "runtime_call_allowed": false,
+        "write_allowed": false,
+        "database_written": false,
+        "memory_written": false,
+        "vector_index_written": false,
+        "feishu_written": false,
+        "pptx_generated": false,
+        "pdf_docx_generated": false,
+        "formal_apply_performed": false,
+        "teacher_original_overwritten": false,
+        "R21_modified": false,
+        "R36_modified": false,
+        "R95_executed": false,
+        "main_shell_replaced": false,
+        "render_layer_replaced": false,
+        "static_html_created": false,
+        "old_generation_chain_modified": false
+      },
+      "response_keys": [
+        "art_lesson_design_kernel_preview",
+        "art_lesson_reasoning_candidate_preview",
+        "boundary",
+        "courseware_screen_patch",
+        "curriculum_standard_candidate_preview",
+        "formal_apply",
+        "generated_at",
+        "import_field_reasoning_preview",
+        "import_graph_field_projection_preview",
+        "import_lesson_understanding_preview",
+        "import_teacher_execution_map_preview",
+        "import_understanding_v2_graph_preview",
+        "lesson_derivation_spine_preview",
+        "ok",
+        "prep_view_patch",
+        "preview_test_record",
+        "r200f_source_ownership_policy",
+        "r200g_response_assembly_ownership_gate",
+        "render_contract",
+        "right_rail_patch",
+        "runtime_actions",
+        "runtime_progress_events",
+        "single_lesson_template",
+        "source_round",
+        "stage",
+        "teacher_readable_quality_preview",
+        "teacher_review_required",
+        "upload_session",
+        "viewmodel_id",
+        "viewmodel_type",
+        "xiaojiao_context_patch"
+      ],
+      "visible_text_sample": [
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "本课依据上传原稿定位为三年级《变废为宝的艺术》，所属单元为“第二单元 守护生命的摇篮”。"
+        },
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "本课的学习重心，是让学生带着前序设计进入制作现场，在材料选择、结构处理和作品说明中，把原来的想法做出来、说清楚。"
+        },
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。"
+        },
+        {
+          "area": "main_template.student_analysis",
+          "source": "R114_field_projection",
+          "text": "三年级学生进入本课时，可能先卡在这里：学生可能把制作理解成自由装饰，而不是实现原有设计意图。"
+        },
+        {
+          "area": "main_template.student_analysis",
+          "source": "R114_field_projection",
+          "text": "课堂上可重点看：学生可能忘带或说不清设计依据，后续制作容易变成随意装饰；学生可能把示范当成唯一答案，或忽略工具安全和材料连接限制。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能依据前序设计想法，选择合适材料推进作品制作，并说明材料选择与设计意图的关系。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能说出自己的学习发现、方法选择或作品特点。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能在交流中用课堂证据说明自己的学习成果。"
+        },
+        {
+          "area": "main_template.key_difficult_points",
+          "source": "R114_field_projection",
+          "text": "重点：把前序设计想法转化为材料选择、结构处理和可观察的作品变化。"
+        },
+        {
+          "area": "main_template.key_difficult_points",
+          "source": "R114_field_projection",
+          "text": "难点：避免学生只做装饰堆叠，引导其说明材料、功能或造型与设计意图之间的关系。"
+        },
+        {
+          "area": "main_template.preparation",
+          "source": "R114_field_projection",
+          "text": "材料、工具、大屏资源和安全安排需教师根据本班条件确认。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：能说出自己带了哪些材料，用于支持学习目标或课堂推进判断，需在 R114B 执行地图中细化对应关系。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：能说出制作4个步骤的名称，用于支持学习目标或课堂推进判断，需在 R114B 执行地图中细化对应关系。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：草图清晰，标注了2种以上材料和颜色方案，用于证明学生带着前序设计进入制作。"
+        },
+        {
+          "area": "main_template.reflection_or_notes",
+          "source": "R114_field_projection",
+          "text": "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "回顾引入"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "回顾上节课内容，引出本课主题"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：展示自己带来的废旧材料，说出名称；可观察证据：能说出自己带了哪些材料"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：能说出自己带了哪些材料；可用原文问题追问：你带了什么材料？你觉得它可以做成什么海洋生物？；反馈抓手：表扬带了材料的同学，营造积极氛围"
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "能说出自己带了哪些材料"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先回到前序设计依据，避免学生脱离原设计随意制作。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先确认学生已经说出可见发现或问题，再进入“示范讲解”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "草图清晰，标注了2种以上材料和颜色方案；能说出下节课要带什么，作品半成品已收好"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "回顾引入"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "uploaded_source",
+          "text": "学生任务：展示自己带来的废旧材料，说出名称；可观察证据：能说出自己带了哪些材料"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "uploaded_source",
+          "text": "学生带来的废旧材料"
+        },
+        {
+          "area": "main_template.micro_steps.evidence",
+          "source": "uploaded_source",
+          "text": "能说出自己带了哪些材料"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "示范讲解"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "展示制作步骤，让学生理解从材料到作品的转化过程"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：观察制作步骤，说出4个步骤的名称；可观察证据：能说出制作4个步骤的名称"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：能说出制作4个步骤的名称；可用原文问题追问：老师做的鱼是什么材料？制作有哪几步？；反馈抓手：强调\"草图是第一步\"，告诉学生不要急于动手，先想好再开始"
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "能说出制作4个步骤的名称"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "在学生练习前比较不同工具的渐变方法，让学生知道彩铅、油画棒和水彩笔各自怎么形成过渡。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“能说出自己带了哪些材料；能说出制作4个步骤的名称；草图清晰，标注了2种以上材料和颜色方案”，再转入“设计草图”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能说出自己带了哪些材料；能说出制作4个步骤的名称；草图清晰，标注了2种以上材料和颜色方案"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "学生操作"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "（展示制作步骤PPT）老师今天要用这个纸箱做一条鱼，请大家看： 第一步：画草图"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "uploaded_source",
+          "text": "学生任务：观察制作步骤，说出4个步骤的名称；可观察证据：能说出制作4个步骤的名称"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "uploaded_source",
+          "text": "投影仪，制作步骤PPT"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "任务准备"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "先在纸上画出鱼的外形，标出各部分的材料"
+        },
+        {
+          "area": "main_template.micro_steps.evidence",
+          "source": "uploaded_source",
+          "text": "能说出制作4个步骤的名称"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "设计草图"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "在学习单上画出海洋生物设计草图，标出材料和颜色方案"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：完成\"设计草图\"学习单，画出海洋生物草图，标注材料和颜色；可观察证据：草图清晰，标注了2种以上材料和颜色方案"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：草图清晰，标注了2种以上材料和颜色方案；可用原文问题追问：你要做的是什么海洋动物？身体用什么材料？鳍用什么材料？；反馈抓手：对每个举手的学生给予具体建议（\"这个材料选得好\"\"鳍可以再大一点\"等）"
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "草图清晰，标注了2种以上材料和颜色方案"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“能说出自己带了哪些材料；能说出制作4个步骤的名称；草图清晰，标注了2种以上材料和颜色方案”，再转入“材料准备与切割”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能说出自己带了哪些材料；能说出制作4个步骤的名称；草图清晰，标注了2种以上材料和颜色方案"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "设计草图推进1"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "现在请拿出你的学习单，开始设计你想要的海洋生物"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "uploaded_source",
+          "text": "学生任务：完成\"设计草图\"学习单，画出海洋生物草图，标注材料和颜色；可观察证据：草图清晰，标注了2种以上材料和颜色方案"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "uploaded_source",
+          "text": "\"设计草图\"学习单（打印），铅笔，橡皮"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "设计草图推进2"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "老师有几个建议"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "设计草图推进3"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "先画外形——你想做什么鱼？是大鲨鱼还是小丑鱼？是水母还是海龟？外形决定了作品的个性"
+        },
+        {
+          "area": "main_template.micro_steps.evidence",
+          "source": "uploaded_source",
+          "text": "草图清晰，标注了2种以上材料和颜色方案"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "材料准备与切割"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "根据草图，进行简单的材料剪裁和初步拼装"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：根据草图进行材料剪裁和初步拼装；可观察证据：剪裁完成，各部分材料已准备好，等待拼装"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：剪裁完成，各部分材料已准备好，等待拼装；可用原文问题追问：你剪的是什么部分？这个材料摸起来是什么感觉？；反馈抓手：关注材料选择是否合理，对有创意的材料选择给予肯定；强调热胶枪安全"
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "剪裁完成，各部分材料已准备好，等待拼装"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“能说出自己带了哪些材料；能说出制作4个步骤的名称；草图清晰，标注了2种以上材料和颜色方案”，再转入“分享与交流”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能说出自己带了哪些材料；能说出制作4个步骤的名称；草图清晰，标注了2种以上材料和颜色方案"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "任务准备"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "草图完成后，现在开始处理材料"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "uploaded_source",
+          "text": "学生任务：根据草图进行材料剪裁和初步拼装；可观察证据：剪裁完成，各部分材料已准备好，等待拼装"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "uploaded_source",
+          "text": "学生自带废旧材料，剪刀，胶布/热胶枪（老师操作），铅笔"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "任务准备"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "请大家按以下步骤操作： 第一步：看着你的草图，想想每个部分该用什么材料"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "材料准备与切割推进3"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "第二步：开始剪裁"
+        },
+        {
+          "area": "main_template.micro_steps.evidence",
+          "source": "uploaded_source",
+          "text": "剪裁完成，各部分材料已准备好，等待拼装"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "分享与交流"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "通过展示和交流，互相启发创意，增强信心"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：展示作品，说出自己用了什么材料；可观察证据：能清楚介绍自己的作品和材料选择"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：能清楚介绍自己的作品和材料选择；可用原文问题追问：你觉得他的材料选得怎么样？有没有给你什么启发？；反馈抓手：强调\"没有错误的材料，只有没想清楚的创意\"，鼓励个性表达"
+        }
+      ]
+    },
+    {
+      "case_id": "ocean_theme",
+      "file_name": "kb_art_g3_lesson_case_1_eeabeca815_课时1_走进海洋世界_教案.docx",
+      "focus_id": "theme_observation_expression",
+      "expected_focus": "theme_observation_expression",
+      "focus_ok": true,
+      "visible_text_count": 188,
+      "teacher_main_text_count": 152,
+      "deny_terms": [
+        "鞋底",
+        "鞋面",
+        "鞋带",
+        "足下生辉",
+        "青绿山水",
+        "石青",
+        "石绿"
+      ],
+      "contamination_hit_count": 0,
+      "teacher_main_contamination_hit_count": 0,
+      "default_visible_source_type_counts": {
+        "R114_field_projection": 30,
+        "R97B_P3_derivation_spine": 18,
+        "runtime_event": 24,
+        "uploaded_source": 104,
+        "xiaojiao_context": 12
+      },
+      "teacher_main_source_type_counts": {
+        "R114_field_projection": 30,
+        "R97B_P3_derivation_spine": 18,
+        "uploaded_source": 104
+      },
+      "template_episode_count": 6,
+      "boundary": {
+        "stage": "1013R_R103_REAL_UPLOAD_ENTRY_PREVIEW",
+        "real_upload_entry_preview": true,
+        "temporary_upload_session_only": true,
+        "real_upload_runtime_connected": false,
+        "provider_called": false,
+        "model_called": false,
+        "runtime_call_allowed": false,
+        "write_allowed": false,
+        "database_written": false,
+        "memory_written": false,
+        "vector_index_written": false,
+        "feishu_written": false,
+        "pptx_generated": false,
+        "pdf_docx_generated": false,
+        "formal_apply_performed": false,
+        "teacher_original_overwritten": false,
+        "R21_modified": false,
+        "R36_modified": false,
+        "R95_executed": false,
+        "main_shell_replaced": false,
+        "render_layer_replaced": false,
+        "static_html_created": false,
+        "old_generation_chain_modified": false
+      },
+      "response_keys": [
+        "art_lesson_design_kernel_preview",
+        "art_lesson_reasoning_candidate_preview",
+        "boundary",
+        "courseware_screen_patch",
+        "curriculum_standard_candidate_preview",
+        "formal_apply",
+        "generated_at",
+        "import_field_reasoning_preview",
+        "import_graph_field_projection_preview",
+        "import_lesson_understanding_preview",
+        "import_teacher_execution_map_preview",
+        "import_understanding_v2_graph_preview",
+        "lesson_derivation_spine_preview",
+        "ok",
+        "prep_view_patch",
+        "preview_test_record",
+        "r200f_source_ownership_policy",
+        "r200g_response_assembly_ownership_gate",
+        "render_contract",
+        "right_rail_patch",
+        "runtime_actions",
+        "runtime_progress_events",
+        "single_lesson_template",
+        "source_round",
+        "stage",
+        "teacher_readable_quality_preview",
+        "teacher_review_required",
+        "upload_session",
+        "viewmodel_id",
+        "viewmodel_type",
+        "xiaojiao_context_patch"
+      ],
+      "visible_text_sample": [
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "本课依据上传原稿定位为三年级《走进海洋世界》，所属单元为“第二单元 守护生命的摇篮”。"
+        },
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "本课的学习重心，是围绕“观察海洋生物图片，说出海洋生物的特征和生存环境，完成\"海洋初印象\"学习单”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。"
+        },
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。"
+        },
+        {
+          "area": "main_template.student_analysis",
+          "source": "R114_field_projection",
+          "text": "三年级学生进入本课时，可能先卡在这里：学生可能知道要完成什么作品或练习，却还需要教师帮助他们把观察发现、材料方法和作品效果联系起来。"
+        },
+        {
+          "area": "main_template.student_analysis",
+          "source": "R114_field_projection",
+          "text": "课堂上可重点看：学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理；展示证据、后续时间或家长协助安排可能还需要教师确认。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能围绕任务目标选择材料和方法，完成有明确意图的美术表达。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能说出自己的学习发现、方法选择或作品特点。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能在交流中用课堂证据说明自己的学习成果。"
+        },
+        {
+          "area": "main_template.key_difficult_points",
+          "source": "R114_field_projection",
+          "text": "重点：围绕本课任务形成清楚的观察、方法尝试和作品表达。"
+        },
+        {
+          "area": "main_template.key_difficult_points",
+          "source": "R114_field_projection",
+          "text": "难点：让学生说清方法选择和学习成果之间的关系。"
+        },
+        {
+          "area": "main_template.preparation",
+          "source": "R114_field_projection",
+          "text": "材料、工具、大屏资源和安全安排需教师根据本班条件确认。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：能说出2-3种海洋动物或对大海的印象，用于支持学习目标或课堂推进判断，需在 R114B 执行地图中细化对应关系。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：能说出3种以上海洋生物的名称和基本特征，用于支持学习目标或课堂推进判断，需在 R114B 执行地图中细化对应关系。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：能说出海洋污染对动物的1-2个影响，用于支持学习目标或课堂推进判断，需在 R114B 执行地图中细化对应关系。"
+        },
+        {
+          "area": "main_template.reflection_or_notes",
+          "source": "R114_field_projection",
+          "text": "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "引入课题"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "通过问题引发学生对海洋的好奇心，建立学习期待"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：说出对大海的印象，举手发言；可观察证据：能说出2-3种海洋动物或对大海的印象"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：能说出2-3种海洋动物或对大海的印象；可用原文问题追问：你们见过真正的大海吗？大海里有哪些动物？；反馈抓手：表扬所有发言的同学，营造安全发言氛围"
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "能说出2-3种海洋动物或对大海的印象"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先确认学生已经说出可见发现或问题，再进入“认识海洋生物”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能说出2-3种海洋动物或对大海的印象；能说出3种以上海洋生物的名称和基本特征；能说出海洋污染对动物的1-2个影响"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "引入课题"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "uploaded_source",
+          "text": "学生任务：说出对大海的印象，举手发言；可观察证据：能说出2-3种海洋动物或对大海的印象"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "uploaded_source",
+          "text": "投影仪"
+        },
+        {
+          "area": "main_template.micro_steps.evidence",
+          "source": "uploaded_source",
+          "text": "能说出2-3种海洋动物或对大海的印象"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "认识海洋生物"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "认识多种海洋生物及其特征，感受海洋生态的多样性"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：观察图片，说出海洋生物的名称和1-2个特征；可观察证据：能说出3种以上海洋生物的名称和基本特征"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：能说出3种以上海洋生物的名称和基本特征；可用原文问题追问：这种动物长什么样？它住在海洋的哪里？它有什么特别的本领？；反馈抓手：及时肯定学生的观察和表达，补充生物知识（栖息地/食性等）"
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "能说出3种以上海洋生物的名称和基本特征"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“能说出2-3种海洋动物或对大海的印象；能说出3种以上海洋生物的名称和基本特征；能说出海洋污染对动物的1-2个影响”，再转入“认识海洋危机”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能说出2-3种海洋动物或对大海的印象；能说出3种以上海洋生物的名称和基本特征；能说出海洋污染对动物的1-2个影响"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "认识海洋生物推进1"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "（PPT播放海洋生物图片集）请大家看屏幕，这是什么动物？谁能说一说，它长什么样子？有什么特别的地方？ 老师一边播，一边请同学来说"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "uploaded_source",
+          "text": "学生任务：观察图片，说出海洋生物的名称和1-2个特征；可观察证据：能说出3种以上海洋生物的名称和基本特征"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "uploaded_source",
+          "text": "投影仪，海洋生物图片PPT"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "认识海洋生物推进2"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "这条鱼是什么颜色的？它的身体是什么形状？……珊瑚礁像什么？……水母是怎么移动的？…… （播放完）谁能告诉大家，你印象最深的海洋生物是什么？为什么？"
+        },
+        {
+          "area": "main_template.micro_steps.evidence",
+          "source": "uploaded_source",
+          "text": "能说出3种以上海洋生物的名称和基本特征"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "认识海洋危机"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "认识海洋污染的现状，理解保护海洋的重要性"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：观察污染图片，说出1-2个感受或想法；可观察证据：能说出海洋污染对动物的1-2个影响"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：能说出海洋污染对动物的1-2个影响；可用原文问题追问：这些垃圾是从哪里来的？海洋动物吃了这些垃圾会怎样？；反馈抓手：引发情感共鸣，但不渲染恐惧，强调\"我们能做什么\""
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "能说出海洋污染对动物的1-2个影响"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“能说出2-3种海洋动物或对大海的印象；能说出3种以上海洋生物的名称和基本特征；能说出海洋污染对动物的1-2个影响”，再转入“认识变废为宝”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能说出2-3种海洋动物或对大海的印象；能说出3种以上海洋生物的名称和基本特征；能说出海洋污染对动物的1-2个影响"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "认识海洋危机推进1"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "海洋这么美，但现在的海洋正在面临危机"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "uploaded_source",
+          "text": "学生任务：观察污染图片，说出1-2个感受或想法；可观察证据：能说出海洋污染对动物的1-2个影响"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "uploaded_source",
+          "text": "投影仪，海洋污染图片PPT"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "认识海洋危机推进2"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "（播放海洋污染图片）请大家看这些图片，告诉我你看到了什么？ （播完后）这些垃圾是从哪里来的？你们在生活中见过这样的场景吗？ 海洋里的动物会因为这些垃圾受到什么影响？老师给大家讲一个真实的故事：一只海龟因为吞食了塑料袋窒息死亡，因为塑料袋看起来像它最爱吃的水母…… 保护海洋，就是保护这些动物的生命"
+        },
+        {
+          "area": "main_template.micro_steps.evidence",
+          "source": "uploaded_source",
+          "text": "能说出海洋污染对动物的1-2个影响"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "认识变废为宝"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "认识\"变废为宝\"的概念，理解废旧材料可以变成艺术品"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：观察示范样品，说出材料，完成学习单第一部分；可观察证据：能说出2-3种可以用来做海洋生物的废旧材料"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：能说出2-3种可以用来做海洋生物的废旧材料；可用原文问题追问：老师这条鱼是用什么做的？你能看出来吗？你的家里有什么废旧材料可以拿来用？；反馈抓手：鼓励学生从生活中发现材料，引导\"废弃物=创作材料\"的观念转换"
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "能说出2-3种可以用来做海洋生物的废旧材料"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“能说出2-3种海洋动物或对大海的印象；能说出3种以上海洋生物的名称和基本特征；能说出海洋污染对动物的1-2个影响”，再转入“完成学习单”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能说出2-3种海洋动物或对大海的印象；能说出3种以上海洋生物的名称和基本特征；能说出海洋污染对动物的1-2个影响"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "教师示范"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "保护海洋，我们可以做什么？（展示教师示范样品）这是老师用废旧材料做的海洋生物"
+        },
+        {
+          "area": "main_template.micro_steps.student_action",
+          "source": "uploaded_source",
+          "text": "学生任务：观察示范样品，说出材料，完成学习单第一部分；可观察证据：能说出2-3种可以用来做海洋生物的废旧材料"
+        },
+        {
+          "area": "main_template.micro_steps.screen_or_materials",
+          "source": "uploaded_source",
+          "text": "教师示范样品（3件），\"海洋初印象\"学习单，铅笔"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "uploaded_source",
+          "text": "认识变废为宝推进2"
+        },
+        {
+          "area": "main_template.micro_steps.teacher_action",
+          "source": "uploaded_source",
+          "text": "请大家看一看：这条鱼是用什么做的？……这个海星是用什么做的？…… 这些看起来像垃圾的东西（举起纸箱/塑料瓶/铁丝），其实都可以变成美丽的艺术品"
+        },
+        {
+          "area": "main_template.micro_steps.evidence",
+          "source": "uploaded_source",
+          "text": "能说出2-3种可以用来做海洋生物的废旧材料"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "uploaded_source",
+          "text": "完成学习单"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "uploaded_source",
+          "text": "巩固本课认知，启发创作想法"
+        },
+        {
+          "area": "main_template.process_episodes.student_learning",
+          "source": "uploaded_source",
+          "text": "学生任务：完成\"海洋初印象\"学习单；可观察证据：学习单3个部分都有内容，画的海洋生物清晰可辨认"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "uploaded_source",
+          "text": "先看学习证据：学习单3个部分都有内容，画的海洋生物清晰可辨认；可用原文问题追问：你准备做什么海洋生物？准备用什么材料？关于海洋你还想知道什么？；反馈抓手：收走学习单，对完成度高的学生给予口头表扬"
+        },
+        {
+          "area": "main_template.process_episodes.evidence",
+          "source": "uploaded_source",
+          "text": "学习单3个部分都有内容，画的海洋生物清晰可辨认"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“能说出2-3种海洋动物或对大海的印象；能说出3种以上海洋生物的名称和基本特征；能说出海洋污染对动物的1-2个影响”，再转入“课堂小结与预告”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "能说出2-3种海洋动物或对大海的印象；能说出3种以上海洋生物的名称和基本特征；能说出海洋污染对动物的1-2个影响"
+        }
+      ]
+    },
+    {
+      "case_id": "weaving",
+      "file_name": "kb_art_g4_lesson_case_1_39f6102808_课时1_穿穿编编_教案.docx",
+      "focus_id": "paper_weaving_structure_expression",
+      "expected_focus": "paper_weaving_structure_expression",
+      "focus_ok": true,
+      "visible_text_count": 150,
+      "teacher_main_text_count": 120,
+      "deny_terms": [
+        "足下生辉",
+        "鞋底",
+        "海洋",
+        "海洋生物",
+        "青绿山水",
+        "渐变",
+        "废旧材料"
+      ],
+      "contamination_hit_count": 2,
+      "teacher_main_contamination_hit_count": 0,
+      "default_visible_source_type_counts": {
+        "R114_field_projection": 30,
+        "R97B_P3_derivation_spine": 18,
+        "runtime_event": 24,
+        "source_gap": 30,
+        "uploaded_source": 42,
+        "xiaojiao_context": 6
+      },
+      "teacher_main_source_type_counts": {
+        "R114_field_projection": 30,
+        "R97B_P3_derivation_spine": 18,
+        "source_gap": 30,
+        "uploaded_source": 42
+      },
+      "template_episode_count": 6,
+      "boundary": {
+        "stage": "1013R_R103_REAL_UPLOAD_ENTRY_PREVIEW",
+        "real_upload_entry_preview": true,
+        "temporary_upload_session_only": true,
+        "real_upload_runtime_connected": false,
+        "provider_called": false,
+        "model_called": false,
+        "runtime_call_allowed": false,
+        "write_allowed": false,
+        "database_written": false,
+        "memory_written": false,
+        "vector_index_written": false,
+        "feishu_written": false,
+        "pptx_generated": false,
+        "pdf_docx_generated": false,
+        "formal_apply_performed": false,
+        "teacher_original_overwritten": false,
+        "R21_modified": false,
+        "R36_modified": false,
+        "R95_executed": false,
+        "main_shell_replaced": false,
+        "render_layer_replaced": false,
+        "static_html_created": false,
+        "old_generation_chain_modified": false
+      },
+      "response_keys": [
+        "art_lesson_design_kernel_preview",
+        "art_lesson_reasoning_candidate_preview",
+        "boundary",
+        "courseware_screen_patch",
+        "curriculum_standard_candidate_preview",
+        "formal_apply",
+        "generated_at",
+        "import_field_reasoning_preview",
+        "import_graph_field_projection_preview",
+        "import_lesson_understanding_preview",
+        "import_teacher_execution_map_preview",
+        "import_understanding_v2_graph_preview",
+        "lesson_derivation_spine_preview",
+        "ok",
+        "prep_view_patch",
+        "preview_test_record",
+        "r200f_source_ownership_policy",
+        "r200g_response_assembly_ownership_gate",
+        "render_contract",
+        "right_rail_patch",
+        "runtime_actions",
+        "runtime_progress_events",
+        "single_lesson_template",
+        "source_round",
+        "stage",
+        "teacher_readable_quality_preview",
+        "teacher_review_required",
+        "upload_session",
+        "viewmodel_id",
+        "viewmodel_type",
+        "xiaojiao_context_patch"
+      ],
+      "visible_text_sample": [
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "本课依据上传原稿定位为四年级《穿穿编编（第1课时）》，所属单元为“第二单元 编织·纸艺”。"
+        },
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。"
+        },
+        {
+          "area": "main_template.basis",
+          "source": "R114_field_projection",
+          "text": "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。"
+        },
+        {
+          "area": "main_template.student_analysis",
+          "source": "R114_field_projection",
+          "text": "四年级学生进入本课时，可能先卡在这里：学生可能知道要完成什么作品或练习，却还需要教师帮助他们把观察发现、材料方法和作品效果联系起来。"
+        },
+        {
+          "area": "main_template.student_analysis",
+          "source": "R114_field_projection",
+          "text": "课堂上可重点看：学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理；学生可能把示范当成唯一答案，或忽略工具安全和材料连接限制。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能围绕本课任务完成一次有目标的观察、尝试或表达。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能说出自己的学习发现、方法选择或作品特点。"
+        },
+        {
+          "area": "main_template.objectives",
+          "source": "R114_field_projection",
+          "text": "学生能在交流中用课堂证据说明自己的学习成果。"
+        },
+        {
+          "area": "main_template.key_difficult_points",
+          "source": "R114_field_projection",
+          "text": "重点：围绕本课任务形成清楚的观察、方法尝试和作品表达。"
+        },
+        {
+          "area": "main_template.key_difficult_points",
+          "source": "R114_field_projection",
+          "text": "难点：让学生说清方法选择和学习成果之间的关系。"
+        },
+        {
+          "area": "main_template.preparation",
+          "source": "R114_field_projection",
+          "text": "材料、工具、大屏资源和安全安排需教师根据本班条件确认。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：导入，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：历史介绍，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "main_template.assessment_or_homework",
+          "source": "R114_field_projection",
+          "text": "观察证据：认识经纬，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "main_template.reflection_or_notes",
+          "source": "R114_field_projection",
+          "text": "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "source_gap",
+          "text": "导入"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "source_gap",
+          "text": "出示编织实物（竹编/藤编），引出\"编织\"主题"
+        },
+        {
+          "area": "main_template.process_episodes.teacher_organization",
+          "source": "source_gap",
+          "text": "上传原文未提供明确教师组织；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "source_gap",
+          "text": "上传原文未提供明确学生学习；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先确认学生已经说出可见发现或问题，再进入“历史介绍”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "学生能说出一个看得见的发现或提出一个与本课对象相关的问题。"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "source_gap",
+          "text": "导入"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "source_gap",
+          "text": "历史介绍"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "source_gap",
+          "text": "编织的历史：七千年前席子→结绳记事→彩陶编织纹样"
+        },
+        {
+          "area": "main_template.process_episodes.teacher_organization",
+          "source": "source_gap",
+          "text": "上传原文未提供明确教师组织；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "source_gap",
+          "text": "上传原文未提供明确学生学习；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“本环节至少需要留下一个口头发现、作品痕迹或同伴交流证据。”，再转入“认识经纬”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "本环节至少需要留下一个口头发现、作品痕迹或同伴交流证据。"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "source_gap",
+          "text": "历史介绍"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "source_gap",
+          "text": "认识经纬"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "source_gap",
+          "text": "认识经线（竖向固定）和纬线（横向穿过），理解交织原理"
+        },
+        {
+          "area": "main_template.process_episodes.teacher_organization",
+          "source": "source_gap",
+          "text": "上传原文未提供明确教师组织；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "source_gap",
+          "text": "上传原文未提供明确学生学习；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“本环节至少需要留下一个口头发现、作品痕迹或同伴交流证据。”，再转入“教师示范”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "本环节至少需要留下一个口头发现、作品痕迹或同伴交流证据。"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "source_gap",
+          "text": "认识经纬"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "source_gap",
+          "text": "教师示范"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "source_gap",
+          "text": "演示纸条编织的基本步骤（压一穿一）"
+        },
+        {
+          "area": "main_template.process_episodes.teacher_organization",
+          "source": "source_gap",
+          "text": "上传原文未提供明确教师组织；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "source_gap",
+          "text": "上传原文未提供明确学生学习；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "在学生动手前提供可选择的制作路径和安全边界。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "先收集“本环节至少需要留下一个口头发现、作品痕迹或同伴交流证据。”，再转入“学生练习”。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "本环节至少需要留下一个口头发现、作品痕迹或同伴交流证据。"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "source_gap",
+          "text": "教师示范"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "source_gap",
+          "text": "学生练习"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "source_gap",
+          "text": "在教师提供的编织底稿上完成一组经纬交织练习"
+        },
+        {
+          "area": "main_template.process_episodes.teacher_organization",
+          "source": "source_gap",
+          "text": "上传原文未提供明确教师组织；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "source_gap",
+          "text": "上传原文未提供明确学生学习；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "把设计想法放到材料和结构中验证，形成过程证据。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "用学生的作品痕迹和困难点作为“小结”的交流材料。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "学生作品或练习中能留下来自观察、方法尝试或调整过程的可见痕迹。"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "source_gap",
+          "text": "学生练习"
+        },
+        {
+          "area": "main_template.process_episodes.episode_title",
+          "source": "source_gap",
+          "text": "小结"
+        },
+        {
+          "area": "main_template.process_episodes.episode_goal",
+          "source": "source_gap",
+          "text": "展示优秀作品，说说编织的关键在哪里"
+        },
+        {
+          "area": "main_template.process_episodes.teacher_organization",
+          "source": "source_gap",
+          "text": "上传原文未提供明确教师组织；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.xiaojiao_hint",
+          "source": "source_gap",
+          "text": "上传原文未提供明确学生学习；需教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.why_now",
+          "source": "R97B_P3_derivation_spine",
+          "text": "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.transition_to_next",
+          "source": "R97B_P3_derivation_spine",
+          "text": "用本环节收集到的作品、语言或过程证据收束本课学习。"
+        },
+        {
+          "area": "main_template.process_episodes.derivation_basis.assessment_evidence",
+          "source": "R97B_P3_derivation_spine",
+          "text": "学生能指着作品或学习产出说明一个依据，并听取或给出一条调整建议。"
+        },
+        {
+          "area": "main_template.micro_steps.step_name",
+          "source": "source_gap",
+          "text": "小结"
+        },
+        {
+          "area": "frontend_current_lesson.sections.basis",
+          "source": "R114_field_projection",
+          "text": "本课依据上传原稿定位为四年级《穿穿编编（第1课时）》，所属单元为“第二单元 编织·纸艺”。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.basis",
+          "source": "R114_field_projection",
+          "text": "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.basis",
+          "source": "R114_field_projection",
+          "text": "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.analysis",
+          "source": "R114_field_projection",
+          "text": "四年级学生进入本课时，可能先卡在这里：学生可能知道要完成什么作品或练习，却还需要教师帮助他们把观察发现、材料方法和作品效果联系起来。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.analysis",
+          "source": "R114_field_projection",
+          "text": "课堂上可重点看：学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理；学生可能把示范当成唯一答案，或忽略工具安全和材料连接限制。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.goals",
+          "source": "R114_field_projection",
+          "text": "学生能围绕本课任务完成一次有目标的观察、尝试或表达。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.goals",
+          "source": "R114_field_projection",
+          "text": "学生能说出自己的学习发现、方法选择或作品特点。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.goals",
+          "source": "R114_field_projection",
+          "text": "学生能在交流中用课堂证据说明自己的学习成果。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.keypoints",
+          "source": "R114_field_projection",
+          "text": "重点：围绕本课任务形成清楚的观察、方法尝试和作品表达。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.keypoints",
+          "source": "R114_field_projection",
+          "text": "难点：让学生说清方法选择和学习成果之间的关系。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.preparation",
+          "source": "R114_field_projection",
+          "text": "材料、工具、大屏资源和安全安排需教师根据本班条件确认。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.assessment",
+          "source": "R114_field_projection",
+          "text": "观察证据：导入，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.assessment",
+          "source": "R114_field_projection",
+          "text": "观察证据：历史介绍，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.assessment",
+          "source": "R114_field_projection",
+          "text": "观察证据：认识经纬，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        },
+        {
+          "area": "frontend_current_lesson.sections.reflection",
+          "source": "R114_field_projection",
+          "text": "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.title",
+          "source": "uploaded_source",
+          "text": "导入"
+        },
+        {
+          "area": "frontend_current_lesson.process_steps.goal",
+          "source": "uploaded_source",
+          "text": "出示编织实物（竹编/藤编），引出\"编织\"主题"
+        }
+      ]
+    }
+  ],
+  "contamination_hits": [
+    {
+      "case_id": "shoe_observation_user_repro",
+      "focus_id": "shoe_observation_drawing_expression",
+      "matched_terms": [
+        "渐变"
+      ],
+      "area": "right_rail_patch.must_not_show",
+      "path": "right_rail_patch.must_not_show[0]",
+      "content_source_type": "right_rail_patch",
+      "default_visible": false,
+      "teacher_main_text": false,
+      "text": "色彩的渐变"
+    },
+    {
+      "case_id": "shoe_observation_user_repro",
+      "focus_id": "shoe_observation_drawing_expression",
+      "matched_terms": [
+        "渐变"
+      ],
+      "area": "right_rail_patch.must_not_show",
+      "path": "right_rail_patch.must_not_show[2]",
+      "content_source_type": "right_rail_patch",
+      "default_visible": false,
+      "teacher_main_text": false,
+      "text": "P6 色彩渐变联动"
+    },
+    {
+      "case_id": "weaving",
+      "focus_id": "paper_weaving_structure_expression",
+      "matched_terms": [
+        "渐变"
+      ],
+      "area": "right_rail_patch.must_not_show",
+      "path": "right_rail_patch.must_not_show[0]",
+      "content_source_type": "right_rail_patch",
+      "default_visible": false,
+      "teacher_main_text": false,
+      "text": "色彩的渐变"
+    },
+    {
+      "case_id": "weaving",
+      "focus_id": "paper_weaving_structure_expression",
+      "matched_terms": [
+        "渐变"
+      ],
+      "area": "right_rail_patch.must_not_show",
+      "path": "right_rail_patch.must_not_show[2]",
+      "content_source_type": "right_rail_patch",
+      "default_visible": false,
+      "teacher_main_text": false,
+      "text": "P6 色彩渐变联动"
+    }
+  ],
+  "source_policy_violations": [],
+  "boundary": {
+    "model_called": false,
+    "provider_called": false,
+    "formal_apply": false,
+    "database_written": false,
+    "validator_only": true
+  },
+  "outputs": {
+    "frontend_visible_text_snapshot": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R200E_FRONTEND_VISIBLE_CONTAMINATION_GUARD\\frontend_visible_text_snapshot.json",
+    "content_source_ledger": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R200E_FRONTEND_VISIBLE_CONTAMINATION_GUARD\\content_source_ledger.json",
+    "active_lesson_denylist": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R200E_FRONTEND_VISIBLE_CONTAMINATION_GUARD\\active_lesson_denylist.json",
+    "contamination_hit_report": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R200E_FRONTEND_VISIBLE_CONTAMINATION_GUARD\\contamination_hit_report.md"
+  }
+}
