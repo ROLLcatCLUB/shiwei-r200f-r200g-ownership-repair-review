@@ -1,0 +1,34 @@
+{
+  "stage": "1013R_R200F_SOURCE_AND_OWNERSHIP_POLICY",
+  "status": "PASS",
+  "checks": {
+    "teacher_main_source_allowlist_exists": true,
+    "source_ownership_policy_exists": true,
+    "r200a_demote_policy_exists": true,
+    "r200b_candidate_only_policy_exists": true,
+    "fallback_visibility_policy_exists": true,
+    "low_confidence_focus_block_policy_exists": true,
+    "response_assembly_gate_plan_exists": true,
+    "teacher_main_R200A_kernel_count_required_zero": true,
+    "r200a_blocked_from_teacher_main": true,
+    "r200b_blocked_from_teacher_main": true,
+    "preview_only_no_formal_apply": true,
+    "r95_not_entered": true
+  },
+  "outputs": {
+    "teacher_main_text_source_allowlist": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R200F_SOURCE_AND_OWNERSHIP_POLICY\\r200f_teacher_main_text_source_allowlist.json",
+    "source_ownership_policy": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R200F_SOURCE_AND_OWNERSHIP_POLICY\\r200f_source_ownership_policy.md",
+    "r200a_demote_policy": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R200F_SOURCE_AND_OWNERSHIP_POLICY\\r200f_r200a_demote_policy.md",
+    "r200b_candidate_only_policy": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R200F_SOURCE_AND_OWNERSHIP_POLICY\\r200f_r200b_candidate_only_policy.md",
+    "fallback_visibility_policy": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R200F_SOURCE_AND_OWNERSHIP_POLICY\\r200f_fallback_visibility_policy.md",
+    "low_confidence_focus_block_policy": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R200F_SOURCE_AND_OWNERSHIP_POLICY\\r200f_low_confidence_focus_block_policy.md",
+    "response_assembly_gate_plan": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R200F_SOURCE_AND_OWNERSHIP_POLICY\\r200f_response_assembly_gate_plan.md"
+  },
+  "boundary": {
+    "model_called": false,
+    "provider_called": false,
+    "formal_apply": false,
+    "database_written": false,
+    "validator_only": true
+  }
+}
