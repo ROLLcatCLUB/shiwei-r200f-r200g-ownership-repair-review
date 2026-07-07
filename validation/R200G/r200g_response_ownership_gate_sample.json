@@ -1,0 +1,126 @@
+{
+  "viewmodel_id": "upload_preview_e6205d8abefa",
+  "gate": {
+    "stage": "1013R_R200G_RESPONSE_ASSEMBLY_OWNERSHIP_GATE",
+    "policy_stage": "1013R_R200F_SOURCE_AND_OWNERSHIP_POLICY",
+    "applied": true,
+    "teacher_main_allowlist": [
+      "uploaded_source",
+      "R114_understanding_graph",
+      "R114_execution_map",
+      "R114_field_projection",
+      "teacher_accepted_provisional_candidate"
+    ],
+    "teacher_main_blocklist": [
+      "R200A_kernel",
+      "R200B_candidate",
+      "deterministic_fallback",
+      "legacy_shell",
+      "unknown"
+    ],
+    "r200a_demoted_from_teacher_main": true,
+    "r200b_candidate_only_enforced": true,
+    "deterministic_fallback_default_visible": false,
+    "legacy_shell_default_visible": false,
+    "low_confidence_focus_block_reasons": [],
+    "low_confidence_focus_blocked": false,
+    "demoted_r200a_teacher_main_candidate_excerpt": {
+      "template_sections": {
+        "basis": [
+          "本课定位为“第五单元 足下生辉”中的《《足下生辉》教案》。",
+          "本课的学习重心，是让学生从熟悉的鞋出发，比较不同角度的外形、结构和局部细节，再用线条、形状和画面组织把观察发现表达出来。",
+          "课标候选依据提示：本课可暂按小学3-5年级美术中观察、造型表现与作品交流方向理解，重点服务“看见鞋的角度/结构/细节，并用线条表达”。以上为本地课标候选切片，进入正式备课前仍需教师核对。"
+        ],
+        "student_analysis": [
+          "三年级学生通常能从生活经验、直观图片和具体材料出发，说出看到的形象、颜色或材料特征，但把观察发现、方法选择和作品意图连成一段完整说明还不稳定。",
+          "前置经验上，学生已有生活中观察鞋、图像观察和基础线描经验；本课要把熟悉物品推进到有角度、有结构、有细节的观察写生。",
+          "本课难点在于学生能否从不同角度看出鞋的外形比例、鞋面结构、鞋底方向和局部细节，并避免凭记忆画成符号化的鞋。",
+          "绘画与表现基础上，学生能画出熟悉物品的大致轮廓，但比例、遮挡、局部纹样和线条轻重需要观察提示、局部示范和巡视反馈。",
+          "真实学情缺口：本班学生的观察写生经验、线描控制水平、是否能带鞋或使用图片观察，上传原文未充分提供，需教师确认。",
+          "结合课标候选方向看，学情分析应重点确认学生是否能从生活物品中提取可见特征，并把观察语言转成线条、比例和局部细节。"
+        ],
+        "objectives": [
+          "学生能从正面、侧面、后面或局部角度观察一双鞋，说出外形比例、鞋面结构、鞋底方向或鞋带纹样等2-3个发现。",
+          "学生能用线条和形状画出鞋的基本轮廓、主要结构和至少一处局部细节，画面依据来自实际观察而不是凭空想象。",
+          "学生能在展示交流中说明自己抓住了哪个角度或细节，并根据同伴或教师提示完成一次画面调整。",
+          "课标候选约束下，目标不只写“画一双鞋”，还要保留观察角度、结构细节、线描表达和交流证据。"
+        ],
+        "key_difficult_points": [
+          "重点：引导学生从真实鞋或图片中观察不同角度的外形、结构和局部细节，并把观察发现转化为线描表达。",
+          "难点：帮助学生处理比例、遮挡、鞋面与鞋底方向、局部纹样等容易被忽略的细节，避免画成概念化、符号化的鞋。",
+          "课标候选约束下，重难点应落在观察证据转化为造型表现：比例、角度、鞋面/鞋底/鞋带等细节不能只靠想象补画。"
+        ]
+      },
+      "current_lesson_sections": {
+        "basis": [
+          "本课定位为“第五单元 足下生辉”中的《《足下生辉》教案》。",
+          "本课的学习重心，是让学生从熟悉的鞋出发，比较不同角度的外形、结构和局部细节，再用线条、形状和画面组织把观察发现表达出来。",
+          "课标候选依据提示：本课可暂按小学3-5年级美术中观察、造型表现与作品交流方向理解，重点服务“看见鞋的角度/结构/细节，并用线条表达”。以上为本地课标候选切片，进入正式备课前仍需教师核对。"
+        ],
+        "analysis": [
+          "三年级学生通常能从生活经验、直观图片和具体材料出发，说出看到的形象、颜色或材料特征，但把观察发现、方法选择和作品意图连成一段完整说明还不稳定。",
+          "前置经验上，学生已有生活中观察鞋、图像观察和基础线描经验；本课要把熟悉物品推进到有角度、有结构、有细节的观察写生。",
+          "本课难点在于学生能否从不同角度看出鞋的外形比例、鞋面结构、鞋底方向和局部细节，并避免凭记忆画成符号化的鞋。",
+          "绘画与表现基础上，学生能画出熟悉物品的大致轮廓，但比例、遮挡、局部纹样和线条轻重需要观察提示、局部示范和巡视反馈。",
+          "真实学情缺口：本班学生的观察写生经验、线描控制水平、是否能带鞋或使用图片观察，上传原文未充分提供，需教师确认。",
+          "结合课标候选方向看，学情分析应重点确认学生是否能从生活物品中提取可见特征，并把观察语言转成线条、比例和局部细节。"
+        ],
+        "goals": [
+          "学生能从正面、侧面、后面或局部角度观察一双鞋，说出外形比例、鞋面结构、鞋底方向或鞋带纹样等2-3个发现。",
+          "学生能用线条和形状画出鞋的基本轮廓、主要结构和至少一处局部细节，画面依据来自实际观察而不是凭空想象。",
+          "学生能在展示交流中说明自己抓住了哪个角度或细节，并根据同伴或教师提示完成一次画面调整。",
+          "课标候选约束下，目标不只写“画一双鞋”，还要保留观察角度、结构细节、线描表达和交流证据。"
+        ],
+        "keypoints": [
+          "重点：引导学生从真实鞋或图片中观察不同角度的外形、结构和局部细节，并把观察发现转化为线描表达。",
+          "难点：帮助学生处理比例、遮挡、鞋面与鞋底方向、局部纹样等容易被忽略的细节，避免画成概念化、符号化的鞋。",
+          "课标候选约束下，重难点应落在观察证据转化为造型表现：比例、角度、鞋面/鞋底/鞋带等细节不能只靠想象补画。"
+        ]
+      },
+      "process_episode_count": 3
+    },
+    "formal_apply": false,
+    "database_written": false,
+    "preview_only": true
+  },
+  "template_renderer_policy": {
+    "backend_provides_template_object": true,
+    "frontend_renders_only": true,
+    "main_renderer": "renderUnifiedLessonProcessStep",
+    "renderer_must_not_infer_pedagogy": true,
+    "derivation_spine_applied": true,
+    "art_lesson_design_kernel_applied": true,
+    "basis_student_profile_refined": true,
+    "cross_topic_visible_text_guard_passed": true,
+    "r200f_teacher_main_allowlist": [
+      "uploaded_source",
+      "R114_understanding_graph",
+      "R114_execution_map",
+      "R114_field_projection",
+      "teacher_accepted_provisional_candidate"
+    ],
+    "r200g_ownership_gate_applied": true,
+    "r200a_kernel_demoted_from_teacher_main": true
+  },
+  "teacher_readable_visibility_policy": {
+    "default_visible": false,
+    "allowed_surface": "folded_diagnostic",
+    "reason": "R110 deterministic draft is fallback/diagnostic until accepted by teacher."
+  },
+  "template_main_section_r200a_marker_present": false,
+  "current_lesson_main_r200a_marker_present": false,
+  "r200e_teacher_main_source_type_counts": {
+    "R114_field_projection": 180,
+    "R97B_P3_derivation_spine": 99,
+    "source_gap": 69,
+    "uploaded_source": 444
+  },
+  "r200e_default_visible_source_type_counts": {
+    "R114_field_projection": 180,
+    "R97B_P3_derivation_spine": 99,
+    "runtime_event": 144,
+    "source_gap": 69,
+    "uploaded_source": 444,
+    "xiaojiao_context": 55
+  }
+}
