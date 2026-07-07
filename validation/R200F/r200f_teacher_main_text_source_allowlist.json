@@ -1,0 +1,39 @@
+{
+  "stage": "1013R_R200F_SOURCE_AND_OWNERSHIP_POLICY",
+  "teacher_main_allowlist": [
+    "uploaded_source",
+    "R114_understanding_graph",
+    "R114_execution_map",
+    "R114_field_projection",
+    "teacher_accepted_provisional_candidate"
+  ],
+  "teacher_main_blocklist": [
+    "R200A_kernel",
+    "R200B_candidate",
+    "deterministic_fallback",
+    "legacy_shell",
+    "unknown"
+  ],
+  "r200a_allowed_surfaces": [
+    "diagnostic",
+    "quality_candidate",
+    "pedagogy_suggestion",
+    "curriculum_alignment_hint",
+    "teacher_review_needed",
+    "developer_folded_diagnostics"
+  ],
+  "low_confidence_focus_block_reasons": [
+    "title_garbled_or_missing",
+    "raw_text_too_thin",
+    "template_episode_count_zero",
+    "focus_matched_from_weak_keyword_only"
+  ],
+  "required_future_counts": {
+    "teacher_main_R200A_kernel_count": 0,
+    "teacher_main_unknown_count": 0,
+    "default_visible_legacy_shell_count": 0,
+    "default_visible_deterministic_fallback_count": 0
+  },
+  "preview_only": true,
+  "formal_apply": false
+}
