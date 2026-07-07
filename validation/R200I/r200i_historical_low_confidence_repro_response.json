@@ -1,0 +1,156 @@
+{
+  "viewmodel_id": "upload_preview_0956e5ab8ee1",
+  "file_name": "??1_????_???_??.docx",
+  "focus_id": "material_transformation_expression",
+  "matched_keywords": [
+    "材料"
+  ],
+  "template_episode_count": 0,
+  "gate": {
+    "stage": "1013R_R200G_RESPONSE_ASSEMBLY_OWNERSHIP_GATE",
+    "policy_stage": "1013R_R200F_SOURCE_AND_OWNERSHIP_POLICY",
+    "applied": true,
+    "teacher_main_allowlist": [
+      "uploaded_source",
+      "R114_understanding_graph",
+      "R114_execution_map",
+      "R114_field_projection",
+      "teacher_accepted_provisional_candidate"
+    ],
+    "teacher_main_blocklist": [
+      "R200A_kernel",
+      "R200B_candidate",
+      "deterministic_fallback",
+      "legacy_shell",
+      "unknown"
+    ],
+    "r200a_demoted_from_teacher_main": true,
+    "r200b_candidate_only_enforced": true,
+    "deterministic_fallback_default_visible": false,
+    "legacy_shell_default_visible": false,
+    "low_confidence_focus_block_reasons": [
+      "title_garbled_or_missing",
+      "raw_text_too_thin",
+      "template_episode_count_zero",
+      "focus_matched_from_weak_keyword_only"
+    ],
+    "low_confidence_focus_blocked": true,
+    "demoted_r200a_teacher_main_candidate_excerpt": {
+      "template_sections": {
+        "basis": [
+          "本课定位为“上传教案单元待确认”中的《???????????》。",
+          "本课的学习重心，是让学生判断材料形态与主题形象之间的关系，再通过剪贴、拼摆或连接形成有意图的作品。",
+          "课标候选依据提示：七、课程实施 > 教学建议：(一)教学建议 艺术教学要以立德树人为根本任务，以核心素养为导向。教师要 深入理解艺术课程的性质；七、课程实施 > 评价建议：(二)评价建议 评价是检验、提升教学质量的重要方式和手段。要充分发挥评价 的诊断、激励和改善功能；五、课程内容 > 美术 > 课程内容框架：(二)美术 美术学科课程内容包括“欣赏·评述”“造型·表现”“设计·应 用”和“综合·探索”4类。以上为本地课标候选切片，进入正式备课前仍需教师核对。"
+        ],
+        "student_analysis": [
+          "三年级学生通常能从生活经验、直观图片和具体材料出发，说出看到的形象、颜色或材料特征，但把观察发现、方法选择和作品意图连成一段完整说明还不稳定。",
+          "前置经验上，学生可能已有剪贴、拼摆或材料收集经验；本课要把这些经验转成有意图的美术表达。",
+          "本课难点不只是完成手工作品，而是让学生判断材料形态、连接方式和海洋生物特征之间的关系，避免材料堆砌。",
+          "技法与材料基础上，学生有基础剪贴、拼摆和简单连接经验，但安全切割、结构稳定、材料服务造型意图仍需要教师示范和巡视支架。",
+          "真实学情缺口：本班学生的工具安全习惯、废旧材料准备情况、前序草图完成度和合作制作经验，上传原文未充分提供，需教师确认。",
+          "结合课标候选方向看，学情分析应确认学生已有观察、材料尝试、作品表达和交流证据基础。"
+        ],
+        "objectives": [
+          "学生能观察材料的形态、质感和连接可能，说出材料可以服务哪个造型意图。",
+          "学生能通过剪贴、拼摆、连接或组合完成一件结构相对稳定、主题明确的作品。",
+          "学生能用作品中的材料选择和结构处理说明自己的创意表达。",
+          "课标候选约束下，目标应同时包含观察/感受、方法尝试、作品表达和证据交流。"
+        ],
+        "key_difficult_points": [
+          "重点：引导学生判断材料形态、连接方式和主题造型之间的关系。",
+          "难点：帮助学生让材料服务造型意图，兼顾结构稳定、工具安全和作品说明。",
+          "课标候选约束下，重难点应落到学生能看见、能操作、能说明的课堂证据。"
+        ]
+      },
+      "current_lesson_sections": {
+        "basis": [
+          "本课定位为“上传教案单元待确认”中的《???????????》。",
+          "本课的学习重心，是让学生判断材料形态与主题形象之间的关系，再通过剪贴、拼摆或连接形成有意图的作品。",
+          "课标候选依据提示：七、课程实施 > 教学建议：(一)教学建议 艺术教学要以立德树人为根本任务，以核心素养为导向。教师要 深入理解艺术课程的性质；七、课程实施 > 评价建议：(二)评价建议 评价是检验、提升教学质量的重要方式和手段。要充分发挥评价 的诊断、激励和改善功能；五、课程内容 > 美术 > 课程内容框架：(二)美术 美术学科课程内容包括“欣赏·评述”“造型·表现”“设计·应 用”和“综合·探索”4类。以上为本地课标候选切片，进入正式备课前仍需教师核对。"
+        ],
+        "analysis": [
+          "三年级学生通常能从生活经验、直观图片和具体材料出发，说出看到的形象、颜色或材料特征，但把观察发现、方法选择和作品意图连成一段完整说明还不稳定。",
+          "前置经验上，学生可能已有剪贴、拼摆或材料收集经验；本课要把这些经验转成有意图的美术表达。",
+          "本课难点不只是完成手工作品，而是让学生判断材料形态、连接方式和海洋生物特征之间的关系，避免材料堆砌。",
+          "技法与材料基础上，学生有基础剪贴、拼摆和简单连接经验，但安全切割、结构稳定、材料服务造型意图仍需要教师示范和巡视支架。",
+          "真实学情缺口：本班学生的工具安全习惯、废旧材料准备情况、前序草图完成度和合作制作经验，上传原文未充分提供，需教师确认。",
+          "结合课标候选方向看，学情分析应确认学生已有观察、材料尝试、作品表达和交流证据基础。"
+        ],
+        "goals": [
+          "学生能观察材料的形态、质感和连接可能，说出材料可以服务哪个造型意图。",
+          "学生能通过剪贴、拼摆、连接或组合完成一件结构相对稳定、主题明确的作品。",
+          "学生能用作品中的材料选择和结构处理说明自己的创意表达。",
+          "课标候选约束下，目标应同时包含观察/感受、方法尝试、作品表达和证据交流。"
+        ],
+        "keypoints": [
+          "重点：引导学生判断材料形态、连接方式和主题造型之间的关系。",
+          "难点：帮助学生让材料服务造型意图，兼顾结构稳定、工具安全和作品说明。",
+          "课标候选约束下，重难点应落到学生能看见、能操作、能说明的课堂证据。"
+        ]
+      },
+      "process_episode_count": 0
+    },
+    "formal_apply": false,
+    "database_written": false,
+    "preview_only": true
+  },
+  "teacher_main_text": [
+    {
+      "area": "single_lesson_template.basis",
+      "path": "single_lesson_template.basis[0].body[0]",
+      "text": "本课依据上传原稿定位为年级待确认《???????????》，所属单元为“上传教案单元待确认”。"
+    },
+    {
+      "area": "single_lesson_template.basis",
+      "path": "single_lesson_template.basis[0].body[1]",
+      "text": "本课的学习重心，可先顺着学习任务待教师确认组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。"
+    },
+    {
+      "area": "single_lesson_template.basis",
+      "path": "single_lesson_template.basis[0].body[2]",
+      "text": "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。"
+    },
+    {
+      "area": "single_lesson_template.student_analysis",
+      "path": "single_lesson_template.student_analysis[0].body[0]",
+      "text": "年级待确认学生进入本课时，可能先卡在这里：学生可能知道要完成什么作品或练习，却还需要教师帮助他们把观察发现、材料方法和作品效果联系起来。"
+    },
+    {
+      "area": "single_lesson_template.student_analysis",
+      "path": "single_lesson_template.student_analysis[0].body[1]",
+      "text": "课堂上可重点看：学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。"
+    },
+    {
+      "area": "single_lesson_template.objectives",
+      "path": "single_lesson_template.objectives[0].body[0]",
+      "text": "学生能围绕本课任务完成一次有目标的观察、尝试或表达。"
+    },
+    {
+      "area": "single_lesson_template.objectives",
+      "path": "single_lesson_template.objectives[0].body[1]",
+      "text": "学生能说出自己的学习发现、方法选择或作品特点。"
+    },
+    {
+      "area": "single_lesson_template.objectives",
+      "path": "single_lesson_template.objectives[0].body[2]",
+      "text": "学生能在交流中用课堂证据说明自己的学习成果。"
+    },
+    {
+      "area": "single_lesson_template.key_difficult_points",
+      "path": "single_lesson_template.key_difficult_points[0].body[0]",
+      "text": "重点：围绕本课任务形成清楚的观察、方法尝试和作品表达。"
+    },
+    {
+      "area": "single_lesson_template.key_difficult_points",
+      "path": "single_lesson_template.key_difficult_points[0].body[1]",
+      "text": "难点：让学生说清方法选择和学习成果之间的关系。"
+    },
+    {
+      "area": "single_lesson_template.preparation",
+      "path": "single_lesson_template.preparation[0].body[0]",
+      "text": "材料、工具、大屏资源和安全安排需教师根据本班条件确认。"
+    }
+  ],
+  "teacher_main_contamination_hits": [],
+  "teacher_main_has_r200a_marker": false
+}
