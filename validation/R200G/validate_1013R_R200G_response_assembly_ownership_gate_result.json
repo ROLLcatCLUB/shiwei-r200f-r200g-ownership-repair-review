@@ -1,0 +1,51 @@
+{
+  "stage": "1013R_R200G_RESPONSE_ASSEMBLY_OWNERSHIP_GATE",
+  "status": "PASS",
+  "checks": {
+    "r200g_gate_present": true,
+    "r200a_demoted_from_teacher_main": true,
+    "r200b_candidate_only_enforced": true,
+    "template_main_has_no_r200a_marker": true,
+    "current_lesson_main_has_no_r200a_marker": true,
+    "teacher_readable_fallback_folded": true,
+    "r200e_teacher_main_R200A_kernel_count_zero": true,
+    "r200e_teacher_main_unknown_count_zero": true,
+    "r200e_default_visible_deterministic_fallback_count_zero": true,
+    "preview_only_no_formal_apply": true
+  },
+  "r200e_status": "PASS",
+  "r200e_summary": {
+    "case_count": 6,
+    "visible_entry_count": 991,
+    "teacher_main_entry_count": 792,
+    "contamination_hit_count": 4,
+    "default_visible_hit_count": 0,
+    "teacher_main_hit_count": 0,
+    "source_policy_violation_count": 0,
+    "focus_failure_count": 0,
+    "default_visible_source_type_counts": {
+      "R114_field_projection": 180,
+      "R97B_P3_derivation_spine": 99,
+      "runtime_event": 144,
+      "source_gap": 69,
+      "uploaded_source": 444,
+      "xiaojiao_context": 55
+    },
+    "teacher_main_source_type_counts": {
+      "R114_field_projection": 180,
+      "R97B_P3_derivation_spine": 99,
+      "source_gap": 69,
+      "uploaded_source": 444
+    }
+  },
+  "outputs": {
+    "response_sample": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R200G_RESPONSE_ASSEMBLY_OWNERSHIP_GATE\\r200g_response_ownership_gate_sample.json"
+  },
+  "boundary": {
+    "model_called": false,
+    "provider_called": false,
+    "formal_apply": false,
+    "database_written": false,
+    "validator_only": true
+  }
+}
