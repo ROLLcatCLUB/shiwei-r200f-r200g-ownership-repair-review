@@ -1,0 +1,37 @@
+{
+  "stage": "1013R_R200I_FRONTEND_VISIBLE_REGRESSION_HARDENING",
+  "status": "PASS",
+  "checks": {
+    "historical_low_confidence_repro_built": true,
+    "r200g_gate_applied": true,
+    "low_confidence_focus_blocked": true,
+    "teacher_main_R200A_kernel_count_zero": true,
+    "teacher_main_denylist_hits_zero": true,
+    "r200b_candidate_not_teacher_main": true,
+    "deterministic_fallback_not_teacher_main": true,
+    "legacy_shell_not_teacher_main": true,
+    "preview_only_no_formal_apply": true
+  },
+  "focus_id": "material_transformation_expression",
+  "matched_keywords": [
+    "材料"
+  ],
+  "gate_low_confidence_reasons": [
+    "title_garbled_or_missing",
+    "raw_text_too_thin",
+    "template_episode_count_zero",
+    "focus_matched_from_weak_keyword_only"
+  ],
+  "teacher_main_text_count": 11,
+  "teacher_main_contamination_hits": [],
+  "outputs": {
+    "historical_low_confidence_repro_response": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R200I_FRONTEND_VISIBLE_REGRESSION_HARDENING\\r200i_historical_low_confidence_repro_response.json"
+  },
+  "boundary": {
+    "model_called": false,
+    "provider_called": false,
+    "formal_apply": false,
+    "database_written": false,
+    "validator_only": true
+  }
+}
